@@ -1,0 +1,25 @@
+.ajax_content
+
+  %h2
+    Login
+
+  .alert
+    =flash[:alert]
+
+  = form_for(resource, :as => resource_name, :url => session_path(resource_name), :html => { :id => "login_form" }) do |f|
+    %p
+      = f.label :email
+      = f.text_field :email
+    %p
+      = f.label :password
+      = f.password_field :password, :size => 20
+    %p
+      = f.label :remember_me
+      = f.check_box :remember_me
+
+    .submit
+      %div
+        = image_submit_tag("log_in.png", :id => "submit")
+
+      .forgot_password
+        = link_to "Forgot your password?", new_password_path(resource_name)

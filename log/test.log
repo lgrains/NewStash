@@ -1,0 +1,379 @@
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.8ms)[0m  describe `roles`
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('consumer', 'Site Administrator', '2011-05-03 15:08:53', '2011-05-03 15:08:53')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('consumer', 'Site Administrator', '2011-05-03 15:08:53', '2011-05-03 15:08:53')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('consumer', 'Site Administrator', '2011-05-03 15:08:54', '2011-05-03 15:08:54')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('consumer', 'Site Administrator', '2011-05-03 15:08:54', '2011-05-03 15:08:54')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('consumer', 'Site Administrator', '2011-05-03 15:08:54', '2011-05-03 15:08:54')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('consumer', 'Site Administrator', '2011-05-03 15:08:54', '2011-05-03 15:08:54')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('consumer', 'Site Administrator', '2011-05-03 15:08:54', '2011-05-03 15:08:54')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('consumer', 'Site Administrator', '2011-05-03 15:08:54', '2011-05-03 15:08:54')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('admin', 'Site Administrator', '2011-05-03 15:08:54', '2011-05-03 15:08:54')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.8ms)[0m  describe `roles`
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-05-03 15:11:53', '2011-05-03 15:11:53')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY '1marshall@jacobsoncollins.com') LIMIT 1
+  [1m[36mSQL (1.3ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`) VALUES ('1marshall@jacobsoncollins.com', '$2a$10$INxdeik2aziJNuoO6wUb.egy2Q7LU87.qxZQCwoPdRrM18HsfbMEW', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-05-03 15:11:53', '2011-05-03 15:11:53', 10, 'Theresa Greenholt', '4018 Abbott Springs', 'Port Jaunitaborough', 'SC', NULL, '96586-1621')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (6.9ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY '1marshall@jacobsoncollins.com') AND (`users`.id <> 1) LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-05-03 15:11:54', '2011-05-03 15:11:54')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY '2jarred@schimmel.name') LIMIT 1[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`) VALUES ('2jarred@schimmel.name', '$2a$10$zVn2fxbuTXbwOu36.5VxUu4HQaAYs40OSlPKig/g6z6Ot66Gul4RS', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-05-03 15:11:54', '2011-05-03 15:11:54', 11, 'Theresa Greenholt', '4018 Abbott Springs', 'Port Jaunitaborough', 'SC', NULL, '96586-1621')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-05-03 15:11:54', '2011-05-03 15:11:54')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY '3ruben_konopelski@kesslerharris.name') LIMIT 1
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`) VALUES ('3ruben_konopelski@kesslerharris.name', '$2a$10$QFE9Sgoti4VRw/hiabpbXOqKLl4H4iP/N8jBWWWhWW3pJhC9nPPo6', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-05-03 15:11:54', '2011-05-03 15:11:54', 12, 'Theresa Greenholt', '4018 Abbott Springs', 'Port Jaunitaborough', 'SC', NULL, '96586-1621')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-05-03 15:11:54', '2011-05-03 15:11:54')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY '4ralph@hayes.net') LIMIT 1[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`) VALUES ('4ralph@hayes.net', '$2a$10$osrFi/NbA8vN3IGKLmzVTuJGzlc..1CKDhJYw2iaNgfSuLHfDwYmm', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-05-03 15:11:54', '2011-05-03 15:11:54', 13, 'Theresa Greenholt', '4018 Abbott Springs', 'Port Jaunitaborough', 'SC', NULL, '96586-1621')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-05-03 15:11:54', '2011-05-03 15:11:54')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY '5diana@mcglynn.info') LIMIT 1
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`) VALUES ('5diana@mcglynn.info', '$2a$10$CR2avPuIuL2aNXpqNzax3ORhpvuBpNZV.u95YzI2G8zTruCtqN2u2', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-05-03 15:11:54', '2011-05-03 15:11:54', 14, 'Theresa Greenholt', '4018 Abbott Springs', 'Port Jaunitaborough', 'SC', NULL, '96586-1621')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-05-03 15:11:54', '2011-05-03 15:11:54')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY '6lessie_reinger@langosh.name') LIMIT 1[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`) VALUES ('6lessie_reinger@langosh.name', '$2a$10$3RBrFsx179qvL9FPHwzYb.zo4XFbHszXKC/eDToQVlr7z1NN02ovS', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-05-03 15:11:54', '2011-05-03 15:11:54', 15, 'Theresa Greenholt', '4018 Abbott Springs', 'Port Jaunitaborough', 'SC', NULL, '96586-1621')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-05-03 15:11:54', '2011-05-03 15:11:54')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY '7nicolette@sporer.com') LIMIT 1
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`) VALUES ('7nicolette@sporer.com', '$2a$10$Gy0QBTVodte0irWwYIPFR.3eu.qIot/AOQvHuiN27R8yf9PWhJvqK', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-05-03 15:11:54', '2011-05-03 15:11:54', 16, 'Theresa Greenholt', '4018 Abbott Springs', 'Port Jaunitaborough', 'SC', NULL, '96586-1621')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-05-03 15:11:54', '2011-05-03 15:11:54')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY '8rebekah@boyle.info') LIMIT 1[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`) VALUES ('8rebekah@boyle.info', '$2a$10$Lp/2UowxBrx0tdcRDGNbW.uISZNZbhfMTY9j/3Q/Z5SGC9RlMpuaG', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-05-03 15:11:54', '2011-05-03 15:11:54', 17, 'Theresa Greenholt', '4018 Abbott Springs', 'Port Jaunitaborough', 'SC', NULL, '96586-1621')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('admin', 'Site Administrator', '2011-05-03 15:11:54', '2011-05-03 15:11:54')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY '9bryce@nicolas.net') LIMIT 1
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`) VALUES ('9bryce@nicolas.net', '$2a$10$l7jAIg2gOoTUF/QtkXMIGeBuuZH9NAXq9PG0pF.zGTl/5bZctFbdi', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-05-03 15:11:54', '2011-05-03 15:11:54', 18, 'Theresa Greenholt', '4018 Abbott Springs', 'Port Jaunitaborough', 'SC', NULL, '96586-1621')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.8ms)[0m  describe `roles`
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-05-03 15:13:04', '2011-05-03 15:13:04')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY '1floy.heaney@blocklowe.org') LIMIT 1
+  [1m[36mSQL (1.2ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`) VALUES ('1floy.heaney@blocklowe.org', '$2a$10$hLA/TjhJDlJOkAeKSroiHeARlsU79t8WaQ.prM5m2JIt85PNcsLIy', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-05-03 15:13:04', '2011-05-03 15:13:04', 19, 'Dr. Hassie Herman', '359 Reilly Pike', 'Port Brooks', 'MP', NULL, '42562')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (16.8ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY '1floy.heaney@blocklowe.org') AND (`users`.id <> 10) LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-05-03 15:13:04', '2011-05-03 15:13:04')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY '2davon@harber.com') LIMIT 1[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`) VALUES ('2davon@harber.com', '$2a$10$7TLX0Xo1E7XBAGuhytgMWe84S9vKopYPJRkMHqmatWWaFAcTd/ZOy', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-05-03 15:13:04', '2011-05-03 15:13:04', 20, 'Dr. Hassie Herman', '359 Reilly Pike', 'Port Brooks', 'MP', NULL, '42562')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-05-03 15:13:04', '2011-05-03 15:13:04')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY '3london_rowe@stiedemann.org') LIMIT 1
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`) VALUES ('3london_rowe@stiedemann.org', '$2a$10$Y0TguCEPwbcWzJZUOPcoMeavsGpuytmD/jZ7ZPgAJzQ5T0i1VQgq2', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-05-03 15:13:04', '2011-05-03 15:13:04', 21, 'Dr. Hassie Herman', '359 Reilly Pike', 'Port Brooks', 'MP', NULL, '42562')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-05-03 15:13:04', '2011-05-03 15:13:04')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY '4itzel@gutmannwiza.biz') LIMIT 1[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`) VALUES ('4itzel@gutmannwiza.biz', '$2a$10$FRwuq9aFT5WK8VVntTak5esyGhOqHLl2sbgKLy1SC54dfx.B3TRdu', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-05-03 15:13:04', '2011-05-03 15:13:04', 22, 'Dr. Hassie Herman', '359 Reilly Pike', 'Port Brooks', 'MP', NULL, '42562')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-05-03 15:13:04', '2011-05-03 15:13:04')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY '5constance@marvinhomenick.biz') LIMIT 1
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`) VALUES ('5constance@marvinhomenick.biz', '$2a$10$qPnGDFT7wVFvNSv5.9.yHOaW.w81iY3KjGHYr.kMlpcWVHvYrEfgG', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-05-03 15:13:04', '2011-05-03 15:13:04', 23, 'Dr. Hassie Herman', '359 Reilly Pike', 'Port Brooks', 'MP', NULL, '42562')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-05-03 15:13:05', '2011-05-03 15:13:05')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY '6josefina_heaney@daniel.com') LIMIT 1[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`) VALUES ('6josefina_heaney@daniel.com', '$2a$10$./ZnnaKn0YvuWMqioObGGuONRXBjxgoxxCikctXV11v1q7sqt9roO', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-05-03 15:13:05', '2011-05-03 15:13:05', 24, 'Dr. Hassie Herman', '359 Reilly Pike', 'Port Brooks', 'MP', NULL, '42562')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-05-03 15:13:05', '2011-05-03 15:13:05')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY '7marcos@sauer.name') LIMIT 1
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`) VALUES ('7marcos@sauer.name', '$2a$10$wHNSV6/QB1l//N32pHUU7elUWfAiFWKaj0RSD5m7SfQtIQzqEcDWK', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-05-03 15:13:05', '2011-05-03 15:13:05', 25, 'Dr. Hassie Herman', '359 Reilly Pike', 'Port Brooks', 'MP', NULL, '42562')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-05-03 15:13:05', '2011-05-03 15:13:05')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY '8matt.bartell@zemlakpowlowski.org') LIMIT 1[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`) VALUES ('8matt.bartell@zemlakpowlowski.org', '$2a$10$KHIdgl2ljgxzocTvR1OODOHfg.iGtHBM0teyk4/JWhRAHDcqzZ2FC', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-05-03 15:13:05', '2011-05-03 15:13:05', 26, 'Dr. Hassie Herman', '359 Reilly Pike', 'Port Brooks', 'MP', NULL, '42562')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('admin', 'Site Administrator', '2011-05-03 15:13:05', '2011-05-03 15:13:05')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY '9marco@friesenkiehn.com') LIMIT 1
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`) VALUES ('9marco@friesenkiehn.com', '$2a$10$6e9ZYcs3dV7Y.kNXAaeuOe8qDA.y8Ra78lzhRPJOvHnk6arCPCfNa', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-05-03 15:13:05', '2011-05-03 15:13:05', 27, 'Dr. Hassie Herman', '359 Reilly Pike', 'Port Brooks', 'MP', NULL, '42562')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mROLLBACK[0m

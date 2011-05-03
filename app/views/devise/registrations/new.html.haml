@@ -1,0 +1,15 @@
+.ajax_content
+  %h1
+    CREATE AN ACCOUNT
+
+  = form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f|
+    = devise_error_messages!
+    = render "form", { :f => f }
+
+    .submit
+      %div
+        = image_submit_tag("email_signup_conf_btn.jpg", :id => "submit")
+
+      .cancel.hidden
+        %a{ :href => "#"} cancel
+

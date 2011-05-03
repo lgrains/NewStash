@@ -14,6 +14,10 @@ NewStash::Application.configure do
   config.consider_all_requests_local       = true
   config.action_controller.perform_caching = false
 
+  # Change this to true if you need to debug email messages
+  config.action_mailer.raise_delivery_errors = false
+  config.action_mailer.default_url_options = { :host => Settings.domain }
+
   # Raise exceptions instead of rendering exception templates
   config.action_dispatch.show_exceptions = false
 

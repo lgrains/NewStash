@@ -1,8 +1,6 @@
 NewStash::Application.routes.draw do
 
-
-  resources :home, :only=>[:index]
-
+  #this should always be at the top
   devise_for :users, :skip => [:sessions] do
     get "/login" => "devise/sessions#new", :as => :new_user_session
     post 'login' => 'devise/sessions#create', :as => :user_session
@@ -12,7 +10,10 @@ NewStash::Application.routes.draw do
 
   root :to => "home#index"
 
-  resources :users
+  #resources :users
+  get "users/profile"
+
+   resources :home, :only=>[:index]
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

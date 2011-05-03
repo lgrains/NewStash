@@ -1,17 +1,13 @@
-%h1 Listing homes
-
-%table
-  %tr
-    %th
-    %th
-    %th
-
-  - @homes.each do |home|
-    %tr
-      %td= link_to 'Show', home
-      %td= link_to 'Edit', edit_home_path(home)
-      %td= link_to 'Destroy', home, :confirm => 'Are you sure?', :method => :delete
-
-%br
-
-= link_to 'New Home', new_home_path
+- @title = 'Welcome!'
+#left
+  %h2 Here are some of the things you can do
+  %ul
+    %li
+      - if logged_in?
+        = link_to 'Logout', :controller => :users, :action => :logout
+      - else
+        = link_to 'Login', new_user_session_path
+    / %li= link_to 'View and accept your pending exchanges', :controller => :exchanges
+    / %li= link_to 'Your listings - view, add, edit or delete', :controller => :listings, :action=> :index
+    / %li= link_to 'Browse listings', :controller => :listings, :action => :browse
+    %li= link_to 'User info', users_profile_path

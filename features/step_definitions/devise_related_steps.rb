@@ -44,10 +44,10 @@ When /^I submit the forgot password form with email address "([^\"]*)"$/ do |ema
   end
 end
 
-When /^I submit the edit password form with a new password "([^\"]*)"$/ do |email|
+When /^I submit the edit password form with a new password "([^\"]*)"$/ do |new_pass|
   within "form" do
-    fill_in "Password", :with => email
-    fill_in "Password confirmation", :with => email
+    fill_in "Password", :with => new_pass
+    fill_in "Password confirmation", :with => new_pass
     click_button "Change my password"
   end
 end
@@ -80,10 +80,11 @@ Then /^I should see "([^\"]*)" in the ajax form$/ do |text|
 end
 
 Then /^I should see edit profile fields$/ do
-  ["user[email]", "user[password]", "user[password_confirmation]", "user[current_password]", "user[full_name]", "user[zip]"].each do |x|
+  ["user[full_name]", "user[email]", "user[street_address]", "user[city]", "user[state]", "user[zip]", "user[phone]"].each do |x|
     Then %{I should see the "#{x}" field in the form}
   end
 end
+
 
 
 def login(user)

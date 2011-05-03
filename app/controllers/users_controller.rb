@@ -20,4 +20,10 @@ class UsersController < ApplicationController
     end
   end
 
+  def profile
+
+    @user = current_user
+    render :action => :edit
+  end
+
 end

@@ -1515,3 +1515,254 @@ Started GET "/" for 127.0.0.1 at 2011-05-03 13:31:34 -0400
   Processing by HomeController#index as HTML
 Rendered text template (0.0ms)
 Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[36mSQL (0.5ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to DeviseCreateUsers (20110330194419)
+Migrating to CreateRoles (20110502191143)
+Migrating to AddColumnsToUsers (20110502200119)
+Migrating to AddPhoneToUser (20110503174449)
+  [1m[35mSQL (87.2ms)[0m  ALTER TABLE `users` ADD `phone` varchar(255)
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20110503174449')[0m
+  [1m[35mSQL (0.5ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TABLES
+  [1m[36mSQL (1.1ms)[0m  [1mdescribe `roles`[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW KEYS FROM `roles`
+  [1m[36mSQL (1.3ms)[0m  [1mdescribe `users`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW KEYS FROM `users`
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to AddPhoneToUser (20110503174449)
+  [1m[35mSQL (43.5ms)[0m  ALTER TABLE `users` DROP `phone`
+  [1m[36mAREL (0.4ms)[0m  [1mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20110503174449'[0m
+  [1m[35mSQL (0.5ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.9ms)[0m  [1mdescribe `roles`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW KEYS FROM `roles`
+  [1m[36mSQL (1.4ms)[0m  [1mdescribe `users`[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW KEYS FROM `users`
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to DeviseCreateUsers (20110330194419)
+Migrating to CreateRoles (20110502191143)
+Migrating to AddColumnsToUsers (20110502200119)
+Migrating to AddPhoneToUser (20110503174449)
+  [1m[35mSQL (115.3ms)[0m  ALTER TABLE `users` ADD `phone` varchar(255)
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20110503174449')[0m
+  [1m[35mSQL (0.5ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.5ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (1.0ms)[0m  [1mdescribe `roles`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW KEYS FROM `roles`
+  [1m[36mSQL (1.3ms)[0m  [1mdescribe `users`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW KEYS FROM `users`
+  [1m[36mSQL (0.5ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (3.1ms)[0m  DROP DATABASE IF EXISTS `stash_test`
+  [1m[36mSQL (0.8ms)[0m  [1mCREATE DATABASE `stash_test` DEFAULT CHARACTER SET `utf8`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (31.1ms)[0m  [1mCREATE TABLE `roles` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `description` text, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [1m[35mSQL (0.6ms)[0m  SHOW TABLES
+  [1m[36mSQL (155.6ms)[0m  [1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(128) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime, `updated_at` datetime, `role_id` int(11) NOT NULL, `full_name` varchar(255), `street_address` varchar(255), `city` varchar(255), `state` varchar(255), `country` varchar(255), `zip` varchar(255), `phone` varchar(255)) ENGINE=InnoDB[0m
+  [1m[35mSQL (0.5ms)[0m  SHOW KEYS FROM `users`
+  [1m[36mSQL (33.5ms)[0m  [1mCREATE UNIQUE INDEX `index_users_on_email` ON `users` (`email`)[0m
+  [1m[35mSQL (0.5ms)[0m  SHOW KEYS FROM `users`
+  [1m[36mSQL (28.2ms)[0m  [1mCREATE UNIQUE INDEX `index_users_on_reset_password_token` ON `users` (`reset_password_token`)[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (155.5ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW KEYS FROM `schema_migrations`
+  [1m[36mSQL (29.1ms)[0m  [1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20110503174449')
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20110330194419')[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20110502191143')
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20110502200119')[0m
+  [1m[36mRole Load (0.3ms)[0m  [1mSELECT `roles`.* FROM `roles`[0m
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-03 14:43:34 -0400
+  Processing by HomeController#index as HTML
+Rendered text template (0.0ms)
+Completed 200 OK in 18ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2011-05-03 14:46:24 -0400
+  Processing by Devise::SessionsController#destroy as HTML
+  [1m[36mSQL (7.1ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  COMMIT
+Redirected to http://localhost:3001/
+Completed 302 Found in 407ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-03 14:46:24 -0400
+  Processing by HomeController#index as HTML
+Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 7.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-03 15:11:25 -0400
+  Processing by HomeController#index as HTML
+Rendered home/index.html.haml within layouts/application (3.8ms)
+Completed   in 11ms
+
+ActionView::Template::Error (No route matches {:controller=>"users", :action=>"login"}):
+    6:       - if logged_in?
+    7:         = link_to 'Logout', :controller => :users, :action => :logout
+    8:       - else
+    9:         = link_to 'Login', :controller => :users, :action => :login
+    10:     %li= link_to 'View and accept your pending exchanges', :controller => :exchanges
+    11:     %li= link_to 'Your listings - view, add, edit or delete', :controller => :listings, :action=> :index
+    12:     %li= link_to 'Browse listings', :controller => :listings, :action => :browse
+  app/views/home/index.html.haml:9:in `_app_views_home_index_html_haml__2550502940822679987_2186630240_3866929057776585232'
+
+Rendered /Users/lrains/.rvm/gems/ruby-1.9.2-head@stash/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/lrains/.rvm/gems/ruby-1.9.2-head@stash/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (106.3ms)
+Rendered /Users/lrains/.rvm/gems/ruby-1.9.2-head@stash/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (113.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-03 15:13:48 -0400
+  Processing by HomeController#index as HTML
+Rendered home/index.html.haml within layouts/application (4.1ms)
+Completed   in 10ms
+
+ActionView::Template::Error (No route matches {:controller=>"exchanges"}):
+    8:       - else
+    9:         = link_to 'Login', new_user_session_path
+    10:     %li= link_to 'View and accept your pending exchanges', :controller => :exchanges
+    11:     %li= link_to 'Your listings - view, add, edit or delete', :controller => :listings, :action=> :index
+    12:     %li= link_to 'Browse listings', :controller => :listings, :action => :browse
+    13:     %li= link_to 'User info', :controller => :users, :action => :edit
+  app/views/home/index.html.haml:11:in `_app_views_home_index_html_haml__2550502940822679987_2185409060_3866929057776585232'
+
+Rendered /Users/lrains/.rvm/gems/ruby-1.9.2-head@stash/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/lrains/.rvm/gems/ruby-1.9.2-head@stash/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (106.2ms)
+Rendered /Users/lrains/.rvm/gems/ruby-1.9.2-head@stash/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (167.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-03 15:14:08 -0400
+  Processing by HomeController#index as HTML
+Rendered home/index.html.haml within layouts/application (4.6ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-03 15:14:49 -0400
+  Processing by HomeController#index as HTML
+Rendered home/index.html.haml within layouts/application (3.6ms)
+Completed   in 10ms
+
+ActionView::Template::Error (No route matches {:controller=>"users", :action=>"edit"}):
+    10:     / %li= link_to 'View and accept your pending exchanges', :controller => :exchanges
+    11:     / %li= link_to 'Your listings - view, add, edit or delete', :controller => :listings, :action=> :index
+    12:     / %li= link_to 'Browse listings', :controller => :listings, :action => :browse
+    13:     %li= link_to 'User info', :controller => :users, :action => :edit
+  app/views/home/index.html.haml:13:in `_app_views_home_index_html_haml__2550502940822679987_2198513200_3866929057776585232'
+
+Rendered /Users/lrains/.rvm/gems/ruby-1.9.2-head@stash/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/lrains/.rvm/gems/ruby-1.9.2-head@stash/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (105.9ms)
+Rendered /Users/lrains/.rvm/gems/ruby-1.9.2-head@stash/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (111.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-03 15:16:22 -0400
+  Processing by HomeController#index as HTML
+Rendered home/index.html.haml within layouts/application (4.8ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2011-05-03 15:16:25 -0400
+
+AbstractController::ActionNotFound (The action 'profile' could not be found for UsersController):
+  
+
+Rendered /Users/lrains/.rvm/gems/ruby-1.9.2-head@stash/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2011-05-03 15:16:31 -0400
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/sessions/new.html.haml within layouts/application (11.6ms)
+Completed 200 OK in 45ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/log_in.png" for 127.0.0.1 at 2011-05-03 15:16:32 -0400
+
+ActionController::RoutingError (No route matches "/images/log_in.png"):
+  
+
+Rendered /Users/lrains/.rvm/gems/ruby-1.9.2-head@stash/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/images/log_in.png" for 127.0.0.1 at 2011-05-03 15:16:32 -0400
+
+ActionController::RoutingError (No route matches "/images/log_in.png"):
+  
+
+Rendered /Users/lrains/.rvm/gems/ruby-1.9.2-head@stash/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2011-05-03 15:16:39 -0400
+  Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ggHhv2zZCzNFESreML362xR76/XyEXnguuvUQ/Qz3cA=", "user"=>{"email"=>"admin@stash.org", "password"=>"[FILTERED]", "remember_me"=>"0"}, "x"=>"0", "y"=>"0"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'admin@stash.org' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE `users` SET `current_sign_in_at` = '2011-05-03 19:16:39', `sign_in_count` = 2, `updated_at` = '2011-05-03 19:16:39' WHERE `users`.`id` = 1[0m
+  [1m[35mSQL (0.3ms)[0m  COMMIT
+Redirected to http://localhost:3001/
+Completed 302 Found in 155ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-03 15:16:39 -0400
+  Processing by HomeController#index as HTML
+Rendered home/index.html.haml within layouts/application (5.0ms)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2011-05-03 15:16:45 -0400
+  Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+Redirected to http://localhost:3001/
+Completed 302 Found in 30ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-03 15:16:45 -0400
+  Processing by HomeController#index as HTML
+Rendered home/index.html.haml within layouts/application (5.0ms)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2011-05-03 15:16:48 -0400
+
+AbstractController::ActionNotFound (The action 'profile' could not be found for UsersController):
+  
+
+Rendered /Users/lrains/.rvm/gems/ruby-1.9.2-head@stash/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2011-05-03 15:19:19 -0400
+  Processing by UsersController#profile as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+Rendered users/edit.html.haml within layouts/application (282.2ms)
+Completed   in 382ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"users", :id=>#<User id: 1, email: "admin@stash.org", encrypted_password: "$2a$10$uDTU8n70B4ZspsCSzUIqkOBsv/DXzwRKnJrzblGOZDFV...", reset_password_token: nil, remember_created_at: nil, sign_in_count: 2, current_sign_in_at: "2011-05-03 19:16:39", last_sign_in_at: "2011-05-03 17:09:41", current_sign_in_ip: "127.0.0.1", last_sign_in_ip: "127.0.0.1", created_at: "2011-05-03 15:53:52", updated_at: "2011-05-03 19:16:39", role_id: 1, full_name: "Stash Admin", street_address: nil, city: nil, state: nil, country: nil, zip: "01821", phone: nil>}):
+    2:   #heading
+    3:     %h1= 'Edit Profile'
+    4: 
+    5:   =simple_form_for @user do |f|
+    6:     - if @user.errors.any?
+    7:       #errorExplanation
+    8:         %h3= "#{pluralize(@user.errors.count, 'error')} prohibited this user from being processed:"
+  app/views/users/edit.html.haml:5:in `_app_views_users_edit_html_haml___4130414053580143147_2198932100_3866929057776585232'
+  app/controllers/users_controller.rb:26:in `profile'
+
+Rendered /Users/lrains/.rvm/gems/ruby-1.9.2-head@stash/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/lrains/.rvm/gems/ruby-1.9.2-head@stash/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (109.3ms)
+Rendered /Users/lrains/.rvm/gems/ruby-1.9.2-head@stash/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (116.3ms)

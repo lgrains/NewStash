@@ -7,6 +7,7 @@ Factory.define :user do |f|
   f.city                  Faker::Address.city
   f.state                 Faker::Address.us_state_abbr
   f.zip                   Faker::Address.zip_code
+  f.phone                 Faker::PhoneNumber.phone_number
   f.password              'password'
   f.password_confirmation 'password'
   f.role                  { |role| role.association(:role, :name => 'cousin') }

@@ -13,6 +13,11 @@ Given /^a user with email "([^"]*)" exists?$/ do |email|
   Factory(:user, :email => email)
 end
 
+
+
+
+#==================
+
 Given /^a user with email "([^"]*)" and full name "([^"]*)" exists$/ do |email, full_name|
   Factory(:user, :email => email, :full_name => full_name)
 end

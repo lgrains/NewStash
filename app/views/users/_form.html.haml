@@ -1,6 +1,6 @@
 #container
   .form_heading
-    = @user.name
+    = @user.full_name
 
     = f.input :full_name, :label => "Full Name", :input_html => {:size => 40 }, :error => false
     = f.input :email, :label => "Email", :input_html => {:size => 80 }, :error => false
@@ -8,11 +8,9 @@
     = f.input :city, :label => "City", :input_html => {:size => 40 }, :error => false
     = f.input :state, :label => "State", :collection => us_states, :include_blank => true, :error => false
     = f.input :zip, :label => "Zip Code", :input_html => {:size => 40 }, :error => false
-    = f.input :phone_number, :label => "Phone", :input_html => { :id => "user_phone", :size => 15, :maxlength => 14 },  :required => false, :error => false
+    = f.input :phone, :label => "Phone", :input_html => { :id => "user_phone", :size => 15, :maxlength => 14 },  :required => false, :error => false
     .form_submit
       = f.submit
       %span
       = link_to 'Cancel', :back
 
-
-  = link_to 'Change your password', :controller => :account, :action => 'change_password'

@@ -10,6 +10,8 @@ module HtmlSelectorsHelpers
 
     when /the page/
       "html > body"
+    when /form/
+      "form"
 
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:

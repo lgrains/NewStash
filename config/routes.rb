@@ -10,7 +10,7 @@ NewStash::Application.routes.draw do
 
   root :to => "home#index"
 
-  #resources :users
+  resources :users, :only => [:edit, :update]
   get "users/profile"
 
    resources :home, :only=>[:index]

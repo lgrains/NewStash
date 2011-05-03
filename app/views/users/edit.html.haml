@@ -2,13 +2,33 @@
   #heading
     %h1= 'Edit Profile'
 
-  =simple_form_for @user do |f|
-    - if @user.errors.any?
-      #errorExplanation
-        %h3= "#{pluralize(@user.errors.count, 'error')} prohibited this user from being processed:"
-        %ul
-          - @user.errors.full_messages.each do |msg|
-            %li= msg
-    = render 'form', :f => f
-
-
+    - @title = 'Edit Your Information'
+    - form_for :user, :url=> edit_user_path(@user), :html=> {:method => :put} do |form|
+      = form.hidden_field :id
+      %p
+        %label.desc{:for => "full_name"} Full Name
+        = form.text_field :full_name, :class => "txt"
+      %p
+        %label.desc{:for => "email"} Email
+        = form.text_field :email, :class => "txt"
+      %p
+        %label.desc{:for => "street_address"} Address 1
+        = form.text_field :street_address, :class => "txt"
+      %p
+        %label.desc{:for => "city"} City
+        = form.text_field :city, :class => "txt"
+      %p
+        %label.desc{:for => "state"} State
+        = form.select :state, options_for_select(us_states)
+      %p
+        %label.desc{:for => "zip"} Zip Code
+        = form.text_field :zip, :class => "txt"
+      %p
+        %label.desc{:for => "phone"}Phone Number
+        = form.text_field :phone, :class => "txt"
+      %p.center
+        %p#xcg
+          = submit_tag 'Cancel'
+          = submit_tag "Save Changes", :class=>"form_submit"
+    %p
+      = link_to 'Change your password', edit_user_password_path

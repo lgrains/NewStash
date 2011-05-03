@@ -1,0 +1,26 @@
+!!!
+%html
+  %head
+    %title Stash-N-Share
+    = csrf_meta_tag
+
+
+    = stylesheet_link_tag 'compiled/screen.css', :media => 'screen, projection'
+    = stylesheet_link_tag 'compiled/print.css', :media => 'print'
+    = stylesheet_link_tag 'jquery-ui'
+    /[if lt IE 8]
+      = stylesheet_link_tag 'compiled/ie.css', :media => 'screen, projection'
+
+
+    -@custom_csses.uniq.each do |css|
+      = stylesheet_link_tag css
+
+  %body
+    = yield
+
+
+
+  //= javascript_include_tag :defaults,"jquery-ui-1.8.12.custom.min", "jquery-SimpleModal-1.4.1", "jquery_textLimit", "jqModal", "jquery_tgcCountdown", "jquery.maskedinput"
+  -@custom_javascripts.uniq.each do |js|
+    = javascript_include_tag js
+

@@ -5,30 +5,29 @@
     - @title = 'Edit Your Information'
     - form_for :user, :url=> edit_user_path(@user), :html=> {:method => :put} do |form|
       = form.hidden_field :id
-      %p
+      %div
         %label.desc{:for => "full_name"} Full Name
         = form.text_field :full_name, :class => "txt"
-      %p
+      %div
         %label.desc{:for => "email"} Email
         = form.text_field :email, :class => "txt"
-      %p
+      %div
         %label.desc{:for => "street_address"} Address 1
         = form.text_field :street_address, :class => "txt"
-      %p
+      %div
         %label.desc{:for => "city"} City
         = form.text_field :city, :class => "txt"
-      %p
+      %div
         %label.desc{:for => "state"} State
         = form.select :state, options_for_select(us_states)
-      %p
+      %div
         %label.desc{:for => "zip"} Zip Code
         = form.text_field :zip, :class => "txt"
-      %p
+      %div
         %label.desc{:for => "phone"}Phone Number
         = form.text_field :phone, :class => "txt"
-      %p.center
-        %p#xcg
-          = submit_tag 'Cancel'
-          = submit_tag "Save Changes", :class=>"form_submit"
-    %p
+      %div
+        = submit_tag 'Cancel'
+        = submit_tag "Save Changes", :class=>"form_submit"
+    %div
       = link_to 'Change your password', edit_user_password_path

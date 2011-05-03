@@ -10,12 +10,12 @@
 # create roles
 if Role.count < 3
   Role.create(:name => "admin",    :description => "this is the role for BCM users")
-  Role.create(:name => "cousin", :description => "this is the role for consumer users")
+  Role.create(:name => "consumer", :description => "this is the role for consumer users")
 end
 
 # create a BCM admin user
-unless User.exists?(["email = ?", "admin@kunz.org"])
-  bcm_admin = User.new(:full_name => "Kunz Admin", :email => "admin@kunz.org", :password => "johnkunziii")
+unless User.exists?(["email = ?", "admin@stash.org"])
+  bcm_admin = User.new(:full_name => "Stash Admin", :email => "admin@stash.org", :password => "quilter")
   bcm_admin.role = Role.find_by_name("admin")
   bcm_admin.save!
 end

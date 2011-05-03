@@ -1,4 +1,5 @@
-Kunz::Application.routes.draw do
+NewStash::Application.routes.draw do
+
 
   resources :home, :only=>[:index]
 
@@ -10,6 +11,8 @@ Kunz::Application.routes.draw do
   end
 
   root :to => "home#index"
+
+  resources :users
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

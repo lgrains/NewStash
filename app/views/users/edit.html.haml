@@ -1,0 +1,14 @@
+#content
+  #heading
+    %h1= 'Edit Profile'
+
+  =simple_form_for @user do |f|
+    - if @user.errors.any?
+      #errorExplanation
+        %h3= "#{pluralize(@user.errors.count, 'error')} prohibited this user from being processed:"
+        %ul
+          - @user.errors.full_messages.each do |msg|
+            %li= msg
+  = render 'form', :f => f
+
+

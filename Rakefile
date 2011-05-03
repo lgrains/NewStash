@@ -4,4 +4,4 @@
 require File.expand_path('../config/application', __FILE__)
 require 'rake'
 
-Kunz::Application.load_tasks
+NewStash::Application.load_tasks

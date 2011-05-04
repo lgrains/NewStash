@@ -13,8 +13,10 @@ class User < ActiveRecord::Base
 
   # hooks
   before_validation :set_role
-
   belongs_to :role
+
+  #associations
+  has_many :listings
 
 
   def role_symbols

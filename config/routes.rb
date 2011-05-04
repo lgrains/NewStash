@@ -1,5 +1,7 @@
 NewStash::Application.routes.draw do
 
+  resources :listings
+
   resources :yardages
 
   #this should always be at the top

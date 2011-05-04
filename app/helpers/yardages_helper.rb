@@ -1,0 +1,2 @@
+module YardagesHelper
+end

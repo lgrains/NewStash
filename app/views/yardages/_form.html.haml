@@ -1,0 +1,40 @@
+= form_for @yardage do |f|
+  -if @yardage.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@yardage.errors.count, "error")} prohibited this yardage from being saved:"
+      %ul
+        - @yardage.errors.full_messages.each do |msg|
+          %li= msg
+
+  .field
+    = f.label :title
+    = f.text_field :title
+  .field
+    = f.label :description
+    = f.text_area :description
+  .field
+    = f.label :length
+    = f.text_field :length
+  .field
+    = f.label :width
+    = f.text_field :width
+  .field
+    = f.label :cost_per_yard
+    = f.text_field :cost_per_yard
+  .field
+    = f.label :treatment_method
+    = f.text_field :treatment_method
+  .field
+    = f.label :manufacturer
+    = f.text_field :manufacturer
+  .field
+    = f.label :fabric_line_name
+    = f.text_field :fabric_line_name
+  .field
+    = f.label :fabric_designer
+    = f.text_field :fabric_designer
+  .field
+    = f.label :fabric_type
+    = f.text_field :fabric_type
+  .actions
+    = f.submit 'Save'

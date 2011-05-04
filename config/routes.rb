@@ -1,5 +1,7 @@
 NewStash::Application.routes.draw do
 
+  resources :yardages
+
   #this should always be at the top
   devise_for :users, :skip => [:sessions] do
     get "/login" => "devise/sessions#new", :as => :new_user_session

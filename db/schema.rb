@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110503174449) do
+ActiveRecord::Schema.define(:version => 20110504125144) do
 
   create_table "roles", :force => true do |t|
     t.string   "name"
@@ -43,5 +43,20 @@ ActiveRecord::Schema.define(:version => 20110503174449) do
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true
   add_index "users", ["reset_password_token"], :name => "index_users_on_reset_password_token", :unique => true
+
+  create_table "yardages", :force => true do |t|
+    t.string   "title"
+    t.text     "description"
+    t.float    "length"
+    t.float    "width"
+    t.decimal  "cost_per_yard",    :precision => 10, :scale => 0
+    t.integer  "treatment_method"
+    t.string   "manufacturer"
+    t.string   "fabric_line_name"
+    t.string   "fabric_designer"
+    t.integer  "fabric_type"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end

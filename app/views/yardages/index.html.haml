@@ -1,0 +1,37 @@
+%h1 Listing yardages
+
+%table
+  %tr
+    %th Title
+    %th Description
+    %th Length
+    %th Width
+    %th Cost per yard
+    %th Treatment method
+    %th Manufacturer
+    %th Fabric line name
+    %th Fabric designer
+    %th Fabric type
+    %th
+    %th
+    %th
+
+  - @yardages.each do |yardage|
+    %tr
+      %td= yardage.title
+      %td= yardage.description
+      %td= yardage.length
+      %td= yardage.width
+      %td= yardage.cost_per_yard
+      %td= yardage.treatment_method
+      %td= yardage.manufacturer
+      %td= yardage.fabric_line_name
+      %td= yardage.fabric_designer
+      %td= yardage.fabric_type
+      %td= link_to 'Show', yardage
+      %td= link_to 'Edit', edit_yardage_path(yardage)
+      %td= link_to 'Destroy', yardage, :confirm => 'Are you sure?', :method => :delete
+
+%br
+
+= link_to 'New Yardage', new_yardage_path

@@ -1,0 +1,36 @@
+%p#notice= notice
+
+%p
+  %b Title:
+  = @yardage.title
+%p
+  %b Description:
+  = @yardage.description
+%p
+  %b Length:
+  = @yardage.length
+%p
+  %b Width:
+  = @yardage.width
+%p
+  %b Cost per yard:
+  = @yardage.cost_per_yard
+%p
+  %b Treatment method:
+  = @yardage.treatment_method
+%p
+  %b Manufacturer:
+  = @yardage.manufacturer
+%p
+  %b Fabric line name:
+  = @yardage.fabric_line_name
+%p
+  %b Fabric designer:
+  = @yardage.fabric_designer
+%p
+  %b Fabric type:
+  = @yardage.fabric_type
+
+= link_to 'Edit', edit_yardage_path(@yardage)
+\|
+= link_to 'Back', yardages_path

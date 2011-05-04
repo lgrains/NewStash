@@ -10,13 +10,54 @@
     = stylesheet_link_tag 'jquery-ui'
     /[if lt IE 8]
       = stylesheet_link_tag 'compiled/ie.css', :media => 'screen, projection'
+    = stylesheet_link_tag 'styles', :media => 'all'
+    = stylesheet_link_tag 'custom', :media => 'all'
 
 
     -@custom_csses.uniq.each do |css|
       = stylesheet_link_tag css
 
   %body
-    = yield
+    #wrap
+      #header
+        %h1 stash-n-share.com
+        %h2 ...Find the fabrics you need, share your extra fabrics
+        #menu
+          %ul
+            %li
+              //= link_to 'Home', :controller => :welcome
+            //%li= link_to 'Exchanges', :controller => :exchanges
+            %li
+              = link_to 'Browse Listings', :controller => :yardages
+            //%li= link_to 'Browse', :controller => :listings, :action => :browse
+            %li
+              = link_to 'User Info', :controller => :users, :action => :profile
+            %li
+              = link_to 'Logout', destroy_user_session_path
+
+          - form_tag('/listings/search', :id=>"searchbox") do
+            = text_field_tag 'query' , 'Search', :size => 25, :onclick => "this.value=''"
+      #main
+        #submain
+          - if flash[:notice]
+            %span.important= flash[:notice]
+            %p/
+          = image_tag '../images/loading.gif', :id =>'spinner', :style=>"display:none; float:right;"
+          %h1= @title
+          / ===== ===== ===== ===== =====
+          = yield
+          / ===== ===== ===== ===== =====
+          = image_tag("/images/bolts.jpg", :class => "imgright", :size => "240x180")
+        / end main
+        #footer
+          #subfooter
+            %p
+              \© 2007 Stash-n-Share.com, All Rights Reserved | Design by
+              %a{:href => "http://www.xhtmlpro.com/"} xHTMLpro.com
+            %p
+              %a{:href => "#"} Contact Us
+              |
+              %a{:href => "#"} Technical Support
 
 
 

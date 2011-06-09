@@ -28,20 +28,23 @@
               //= link_to 'Home', :controller => :welcome
             //%li= link_to 'Exchanges', :controller => :exchanges
             %li
-              = link_to 'Browse Listings', :controller => :yardages
+              //= link_to 'Browse Listings', :controller => :yardages
             //%li= link_to 'Browse', :controller => :listings, :action => :browse
             %li
-              = link_to 'User Info', :controller => :users, :action => :profile
+              //= link_to 'User Info', :controller => :users, :action => :profile
             %li
-              = link_to 'Logout', destroy_user_session_path
+              = link_to 'log out', destroy_user_session_path
 
-          - form_tag('/listings/search', :id=>"searchbox") do
+          = form_tag('/listings/search', :id=>"searchbox") do
             = text_field_tag 'query' , 'Search', :size => 25, :onclick => "this.value=''"
       #main
         #submain
-          - if flash[:notice]
-            %span.important= flash[:notice]
-            %p/
+          .notice
+            =flash[:notice]
+          .alert
+            =flash[:alert]
+          .error
+            =flash[:error]
           = image_tag '../images/loading.gif', :id =>'spinner', :style=>"display:none; float:right;"
           %h1= @title
           / ===== ===== ===== ===== =====

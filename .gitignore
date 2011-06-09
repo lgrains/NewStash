@@ -7,7 +7,7 @@ config/settings/production.yml
 db/*.sqlite3
 db/development_structure.sql
 lib/tasks/fill_db.rake
-log/*.log
+log/
 public/system
 public/stylesheets/compiled/*
 tmp/

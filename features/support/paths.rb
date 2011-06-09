@@ -12,6 +12,8 @@ module NavigationHelpers
       '/'
     when /the Login page/
       new_user_session_path
+    when /the Sign Up page/
+      new_user_registration_path
     when /the User Edit Profile page for user "(.*)"/
       edit_user_path(User.find_by_email($1))
     when /the Forgot Password page/

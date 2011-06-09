@@ -4,14 +4,15 @@ Feature:  Sign up a consumer account
   So I can purchase coupons
 
   Background:
-    Given a role named "consumer" exist
+    Given a role named "consumer" exists
 
   Scenario: Sign up a user with valid information
     Given I am on the Sign Up page
+    Then show me the page
      When I submit the sign up form with valid information
      Then I should see a flash notice with "You have signed up successfully"
       And the new user with email "new_user@bcm.tv" should be created as a "consumer"
-      #And "new_user@bcm.tv" should receive an email with subject "Welcome to Hazzoo"
+      #And "new_user@bcm.tv" should receive an email with subject "Welcome to Stash-n-Share!"
 
   Scenario: Sign up using an existing email address
     Given a user with email "existing_user@bcm.tv" exist

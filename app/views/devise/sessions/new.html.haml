@@ -21,7 +21,7 @@
 
     .submit
       %div
-        = image_submit_tag("log_in.png", :id => "submit")
+        = f.submit "Log me in!"
 
       .forgot_password
         = link_to "Forgot your password?", new_password_path(resource_name)

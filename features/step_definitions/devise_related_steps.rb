@@ -30,8 +30,8 @@ end
 
 When /^I submit the login form with email "([^\"]*)" and password "([^\"]*)"(?: and "([^\"]*)" remember me)?$/ do |email, password, checked|
   within "form" do
-    fill_in "Email", :with => email
-    fill_in "Password", :with => password
+    fill_in "user_email", :with => email
+    fill_in "user_password", :with => password
     check "Remember me" if checked == "checked"
     click_button "submit"
   end

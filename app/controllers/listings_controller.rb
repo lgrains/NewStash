@@ -1,4 +1,4 @@
-class ListingsController < ListingController
+class ListingsController < ActionController::Base
   # GET /listings
   # GET /listings.xml
   def index

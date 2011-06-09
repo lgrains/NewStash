@@ -48,7 +48,7 @@ Then /^I should be logged in$/ do
 end
 
 Then /^I should not be logged in$/ do
-  Then %{I should see "log in"}
+  Then %{I should see "Login"}
 end
 
 Then /^I should see the following "([^\"]*)"$/ do |strings|

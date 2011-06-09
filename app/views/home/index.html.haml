@@ -1,3 +1,4 @@
+
 - @title = 'Welcome!'
 #left
   %h2 Here are some of the things you can do
@@ -10,4 +11,5 @@
     / %li= link_to 'View and accept your pending exchanges', :controller => :exchanges
     / %li= link_to 'Your listings - view, add, edit or delete', :controller => :listings, :action=> :index
     / %li= link_to 'Browse listings', :controller => :listings, :action => :browse
-    %li= link_to 'User info', users_profile_path
+    - if current_user.role.name == "admin"
+      %li= link_to 'User Info', users_profile_path

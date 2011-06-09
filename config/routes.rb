@@ -2,7 +2,7 @@ NewStash::Application.routes.draw do
 
   resources :listings
 
-  resources :yardages
+  #resources :yardages
 
   #this should always be at the top
   devise_for :users, :skip => [:sessions] do

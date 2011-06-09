@@ -2358,3 +2358,2124 @@ Started GET "/" for 127.0.0.1 at 2011-05-03 15:05:43 -0400
 Rendered home/index.html.haml within layouts/application (5.9ms)
 Completed   in 11ms
   [1m[35mSQL (0.8ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (10.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.8ms)[0m  describe `roles`
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('consumer', 'Site Administrator', '2011-06-09 14:56:38', '2011-06-09 14:56:38')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-06-09 10:56:38 -0400
+  Processing by Devise::RegistrationsController#new as HTML
+Rendered devise/registrations/_form.html.haml (11.2ms)
+Rendered devise/registrations/new.html.haml within layouts/application (107.6ms)
+Completed 200 OK in 118ms (Views: 113.6ms | ActiveRecord: 12.0ms)
+  [1m[36mSQL (0.7ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.5ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (1.7ms)[0m  describe `roles`
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('consumer', 'Site Administrator', '2011-06-09 16:23:21', '2011-06-09 16:23:21')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-06-09 12:23:21 -0400
+  Processing by Devise::RegistrationsController#new as HTML
+Rendered devise/registrations/_form.html.haml (12.8ms)
+Rendered devise/registrations/new.html.haml within layouts/application (141.6ms)
+Completed 200 OK in 189ms (Views: 166.1ms | ActiveRecord: 3.9ms)
+  [1m[36mSQL (0.9ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (1.1ms)[0m  describe `roles`
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('consumer', 'Site Administrator', '2011-06-09 16:27:03', '2011-06-09 16:27:03')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-06-09 12:27:03 -0400
+  Processing by Devise::RegistrationsController#new as HTML
+Rendered devise/registrations/_form.html.haml (10.7ms)
+Rendered devise/registrations/new.html.haml within layouts/application (109.5ms)
+Completed 200 OK in 120ms (Views: 115.6ms | ActiveRecord: 2.1ms)
+  [1m[36mSQL (0.6ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (1.8ms)[0m  describe `roles`
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('consumer', 'Site Administrator', '2011-06-09 16:27:48', '2011-06-09 16:27:48')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-06-09 12:27:48 -0400
+  Processing by Devise::RegistrationsController#new as HTML
+Rendered devise/registrations/_form.html.haml (10.7ms)
+Rendered devise/registrations/new.html.haml within layouts/application (109.5ms)
+Completed 200 OK in 120ms (Views: 115.5ms | ActiveRecord: 2.8ms)
+  [1m[36mSQL (0.6ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (1.6ms)[0m  describe `roles`
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('consumer', 'Site Administrator', '2011-06-09 16:28:33', '2011-06-09 16:28:33')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-06-09 12:28:33 -0400
+  Processing by Devise::RegistrationsController#new as HTML
+Rendered devise/registrations/_form.html.haml (10.9ms)
+Rendered devise/registrations/new.html.haml within layouts/application (110.1ms)
+Completed 200 OK in 121ms (Views: 116.2ms | ActiveRecord: 2.8ms)
+  [1m[36mSQL (0.6ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (1.7ms)[0m  describe `roles`
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('consumer', 'Site Administrator', '2011-06-09 16:30:13', '2011-06-09 16:30:13')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-06-09 12:30:13 -0400
+  Processing by Devise::RegistrationsController#new as HTML
+Rendered devise/registrations/_form.html.haml (11.2ms)
+Rendered devise/registrations/new.html.haml within layouts/application (109.5ms)
+Completed 200 OK in 120ms (Views: 115.5ms | ActiveRecord: 2.7ms)
+  [1m[36mSQL (0.6ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (1.6ms)[0m  describe `roles`
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('consumer', 'Site Administrator', '2011-06-09 16:37:52', '2011-06-09 16:37:52')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-06-09 12:37:52 -0400
+  Processing by Devise::RegistrationsController#new as HTML
+Rendered devise/registrations/_form.html.haml (10.6ms)
+Rendered devise/registrations/new.html.haml within layouts/application (107.1ms)
+Completed 200 OK in 117ms (Views: 112.9ms | ActiveRecord: 2.7ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 12:37:53 -0400
+  Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"full_name"=>"Daisy Quilter", "email"=>"dquilter@stash.com", "zip"=>"01821", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign Me Up!"}
+WARNING: Can't mass-assign protected attributes: full_name
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mRole Load (0.5ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`name` = 'cousin' LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'dquilter@stash.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+Rendered devise/registrations/_form.html.haml (6.6ms)
+Rendered devise/registrations/new.html.haml within layouts/application (15.4ms)
+Completed 200 OK in 173ms (Views: 16.3ms | ActiveRecord: 1.1ms)
+  [1m[36mSQL (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (1.0ms)[0m  describe `roles`
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('consumer', 'Site Administrator', '2011-06-09 16:38:35', '2011-06-09 16:38:35')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-06-09 12:38:35 -0400
+  Processing by Devise::RegistrationsController#new as HTML
+Rendered devise/registrations/_form.html.haml (11.1ms)
+Rendered devise/registrations/new.html.haml within layouts/application (110.3ms)
+Completed 200 OK in 121ms (Views: 116.2ms | ActiveRecord: 2.2ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 12:38:36 -0400
+  Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"full_name"=>"Daisy Quilter", "email"=>"dquilter@stash.com", "zip"=>"01821", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign Me Up!"}
+WARNING: Can't mass-assign protected attributes: full_name
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mRole Load (0.5ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`name` = 'cousin' LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'dquilter@stash.com') LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+Rendered devise/registrations/_form.html.haml (7.2ms)
+Rendered devise/registrations/new.html.haml within layouts/application (95.7ms)
+Completed 200 OK in 227ms (Views: 96.8ms | ActiveRecord: 1.5ms)
+  [1m[36mSQL (0.8ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (1.1ms)[0m  describe `roles`
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('consumer', 'Site Administrator', '2011-06-09 17:12:20', '2011-06-09 17:12:20')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-06-09 13:12:20 -0400
+  Processing by Devise::RegistrationsController#new as HTML
+Rendered devise/registrations/_form.html.haml (10.6ms)
+Rendered devise/registrations/new.html.haml within layouts/application (107.9ms)
+Completed 200 OK in 118ms (Views: 113.8ms | ActiveRecord: 2.2ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 13:12:21 -0400
+  Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"full_name"=>"Daisy Quilter", "email"=>"dquilter@stash.com", "zip"=>"01821", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign Me Up!"}
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mRole Load (0.4ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`name` = 'consumer' LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'dquilter@stash.com') LIMIT 1[0m
+  [1m[35mSQL (1.3ms)[0m  describe `users`
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`, `phone`) VALUES ('dquilter@stash.com', '$2a$10$I02RKovEd8QILdjFes2souM2QnWluWgr76pkQLuKCqDZdmddWrurK', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-06-09 17:12:21', '2011-06-09 17:12:21', 8, 'Daisy Quilter', NULL, NULL, NULL, NULL, '01821', NULL)[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mAREL (0.3ms)[0m  UPDATE `users` SET `last_sign_in_at` = '2011-06-09 17:12:21', `current_sign_in_at` = '2011-06-09 17:12:21', `last_sign_in_ip` = '127.0.0.1', `current_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2011-06-09 17:12:21' WHERE `users`.`id` = 1
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/
+Completed 302 Found in 147ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 13:12:21 -0400
+  Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mRole Load (0.2ms)[0m  [1mSELECT `roles`.* FROM `roles` WHERE `roles`.`id` = 8 LIMIT 1[0m
+Rendered home/index.html.haml within layouts/application (10.9ms)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.6ms)
+  [1m[35mUser Load (0.7ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'dquilter@stash.com' LIMIT 1
+  [1m[36mRole Load (0.4ms)[0m  [1mSELECT `roles`.* FROM `roles` WHERE `roles`.`id` = 8 LIMIT 1[0m
+  [1m[35mSQL (0.9ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.8ms)[0m  describe `roles`
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('consumer', 'Site Administrator', '2011-06-09 17:13:20', '2011-06-09 17:13:20')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-06-09 13:13:20 -0400
+  Processing by Devise::RegistrationsController#new as HTML
+Rendered devise/registrations/_form.html.haml (11.5ms)
+Rendered devise/registrations/new.html.haml within layouts/application (109.8ms)
+Completed 200 OK in 120ms (Views: 115.7ms | ActiveRecord: 1.8ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 13:13:20 -0400
+  Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"full_name"=>"Daisy Quilter", "email"=>"dquilter@stash.com", "zip"=>"01821", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign Me Up!"}
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mRole Load (0.3ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`name` = 'consumer' LIMIT 1
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'dquilter@stash.com') LIMIT 1[0m
+  [1m[35mSQL (1.4ms)[0m  describe `users`
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`, `phone`) VALUES ('dquilter@stash.com', '$2a$10$Itz7WAn1QJgf2IytpAYQiO8IR4TtnGh.G.gS67/QJp3LPofNS5FzS', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-06-09 17:13:21', '2011-06-09 17:13:21', 9, 'Daisy Quilter', NULL, NULL, NULL, NULL, '01821', NULL)[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mAREL (0.3ms)[0m  UPDATE `users` SET `last_sign_in_at` = '2011-06-09 17:13:21', `current_sign_in_at` = '2011-06-09 17:13:21', `last_sign_in_ip` = '127.0.0.1', `current_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2011-06-09 17:13:21' WHERE `users`.`id` = 2
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/
+Completed 302 Found in 148ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 13:13:21 -0400
+  Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mRole Load (0.2ms)[0m  [1mSELECT `roles`.* FROM `roles` WHERE `roles`.`id` = 9 LIMIT 1[0m
+Rendered home/index.html.haml within layouts/application (8.9ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.5ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'dquilter@stash.com' LIMIT 1
+  [1m[36mRole Load (0.4ms)[0m  [1mSELECT `roles`.* FROM `roles` WHERE `roles`.`id` = 9 LIMIT 1[0m
+  [1m[35mSQL (0.7ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (1.2ms)[0m  describe `roles`
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('consumer', 'Site Administrator', '2011-06-09 17:15:18', '2011-06-09 17:15:18')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-06-09 17:15:18', '2011-06-09 17:15:18')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'dquilter@stash.com') LIMIT 1[0m
+  [1m[35mSQL (1.3ms)[0m  describe `users`
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`, `phone`) VALUES ('dquilter@stash.com', '$2a$10$egSD8Gi1sgJJG1XEqTC/SendCjyyvO6O/MYlSvQWFiHnMKNNzZccy', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-06-09 17:15:18', '2011-06-09 17:15:18', 11, 'Mr. Darlene Padberg', '399 Bode Estate', 'South Kelliehaven', 'CT', NULL, '48342', '(878)575-5180 x127')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-06-09 13:15:18 -0400
+  Processing by Devise::RegistrationsController#new as HTML
+Rendered devise/registrations/_form.html.haml (78.3ms)
+Rendered devise/registrations/new.html.haml within layouts/application (97.5ms)
+Completed 200 OK in 104ms (Views: 103.2ms | ActiveRecord: 4.7ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 13:15:19 -0400
+  Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"full_name"=>"", "email"=>"dquilter@stash.com", "zip"=>"84109", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign Me Up!"}
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mRole Load (0.4ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`name` = 'consumer' LIMIT 1
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'dquilter@stash.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+Rendered devise/registrations/_form.html.haml (73.4ms)
+Rendered devise/registrations/new.html.haml within layouts/application (81.2ms)
+Completed 200 OK in 185ms (Views: 81.8ms | ActiveRecord: 1.1ms)
+  [1m[36mSQL (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (2.0ms)[0m  describe `roles`
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('consumer', 'Site Administrator', '2011-06-09 17:16:32', '2011-06-09 17:16:32')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-06-09 13:16:32 -0400
+  Processing by Devise::RegistrationsController#new as HTML
+Rendered devise/registrations/_form.html.haml (11.2ms)
+Rendered devise/registrations/new.html.haml within layouts/application (113.8ms)
+Completed 200 OK in 124ms (Views: 119.7ms | ActiveRecord: 3.2ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 13:16:33 -0400
+  Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"full_name"=>"Daisy Quilter", "email"=>"dquilter@stash.com", "zip"=>"01821", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign Me Up!"}
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mRole Load (0.3ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`name` = 'consumer' LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'dquilter@stash.com') LIMIT 1[0m
+  [1m[35mSQL (1.2ms)[0m  describe `users`
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`, `phone`) VALUES ('dquilter@stash.com', '$2a$10$UZLQoQALIGS02gOGiildqeV7hZzN8BW8p3EJBies9oHJENcKbac1a', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-06-09 17:16:33', '2011-06-09 17:16:33', 12, 'Daisy Quilter', NULL, NULL, NULL, NULL, '01821', NULL)[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mAREL (0.3ms)[0m  UPDATE `users` SET `last_sign_in_at` = '2011-06-09 17:16:33', `current_sign_in_at` = '2011-06-09 17:16:33', `last_sign_in_ip` = '127.0.0.1', `current_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2011-06-09 17:16:33' WHERE `users`.`id` = 4
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/
+Completed 302 Found in 144ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 13:16:33 -0400
+  Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1
+  [1m[36mRole Load (0.2ms)[0m  [1mSELECT `roles`.* FROM `roles` WHERE `roles`.`id` = 12 LIMIT 1[0m
+Rendered home/index.html.haml within layouts/application (8.2ms)
+Completed 200 OK in 14ms (Views: 12.5ms | ActiveRecord: 0.5ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'dquilter@stash.com' LIMIT 1
+  [1m[36mRole Load (0.2ms)[0m  [1mSELECT `roles`.* FROM `roles` WHERE `roles`.`id` = 12 LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (1.1ms)[0m  describe `roles`
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('consumer', 'Site Administrator', '2011-06-09 17:17:03', '2011-06-09 17:17:03')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-06-09 17:17:04', '2011-06-09 17:17:04')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'dquilter@stash.com') LIMIT 1[0m
+  [1m[35mSQL (1.2ms)[0m  describe `users`
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`, `phone`) VALUES ('dquilter@stash.com', '$2a$10$uzTCa2K8PtEcoQjHqaMUeeOGZtr4Y4szi8fjIp1AWC9xWsLrB9va6', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-06-09 17:17:04', '2011-06-09 17:17:04', 14, 'Madison Green V', '45068 Bergnaum Radial', 'North Marjorie', 'PW', NULL, '04505', '(077)233-2040 x105')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-06-09 13:17:04 -0400
+  Processing by Devise::RegistrationsController#new as HTML
+Rendered devise/registrations/_form.html.haml (77.2ms)
+Rendered devise/registrations/new.html.haml within layouts/application (95.8ms)
+Completed 200 OK in 103ms (Views: 101.6ms | ActiveRecord: 4.7ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 13:17:04 -0400
+  Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"full_name"=>"", "email"=>"dquilter@stash.com", "zip"=>"84109", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign Me Up!"}
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mRole Load (0.4ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`name` = 'consumer' LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'dquilter@stash.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+Rendered devise/registrations/_form.html.haml (71.9ms)
+Rendered devise/registrations/new.html.haml within layouts/application (79.6ms)
+Completed 200 OK in 183ms (Views: 80.2ms | ActiveRecord: 0.9ms)
+  [1m[36mSQL (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (2.3ms)[0m  describe `roles`
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('consumer', 'Site Administrator', '2011-06-09 17:18:51', '2011-06-09 17:18:51')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-06-09 13:18:51 -0400
+  Processing by Devise::RegistrationsController#new as HTML
+Rendered devise/registrations/_form.html.haml (11.4ms)
+Rendered devise/registrations/new.html.haml within layouts/application (110.6ms)
+Completed 200 OK in 127ms (Views: 116.7ms | ActiveRecord: 3.5ms)
+  [1m[36mSQL (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.8ms)[0m  describe `roles`
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('consumer', 'Site Administrator', '2011-06-09 17:19:29', '2011-06-09 17:19:29')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-06-09 13:19:29 -0400
+  Processing by Devise::RegistrationsController#new as HTML
+Rendered devise/registrations/_form.html.haml (10.8ms)
+Rendered devise/registrations/new.html.haml within layouts/application (108.0ms)
+Completed 200 OK in 118ms (Views: 113.9ms | ActiveRecord: 1.8ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 13:19:30 -0400
+  Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"full_name"=>"", "email"=>"new_user@stash.com", "zip"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign Me Up!"}
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mRole Load (0.4ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`name` = 'consumer' LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'new_user@stash.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+Rendered devise/registrations/_form.html.haml (73.1ms)
+Rendered devise/registrations/new.html.haml within layouts/application (81.1ms)
+Completed 200 OK in 213ms (Views: 81.7ms | ActiveRecord: 1.0ms)
+  [1m[36mSQL (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.9ms)[0m  describe `roles`
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('consumer', 'Site Administrator', '2011-06-09 17:19:51', '2011-06-09 17:19:51')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 13:19:51 -0400
+  Processing by HomeController#index as HTML
+Rendered home/index.html.haml within layouts/application (16.9ms)
+Completed 200 OK in 24ms (Views: 22.8ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-06-09 13:19:51 -0400
+  Processing by Devise::RegistrationsController#new as HTML
+Rendered devise/registrations/_form.html.haml (11.3ms)
+Rendered devise/registrations/new.html.haml within layouts/application (100.1ms)
+Completed 200 OK in 109ms (Views: 104.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 13:19:51 -0400
+  Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"full_name"=>"", "email"=>"", "zip"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign Me Up!"}
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mRole Load (0.4ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`name` = 'consumer' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Rendered devise/registrations/_form.html.haml (73.7ms)
+Rendered devise/registrations/new.html.haml within layouts/application (83.3ms)
+Completed 200 OK in 115ms (Views: 83.9ms | ActiveRecord: 0.8ms)
+  [1m[35mSQL (0.5ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.8ms)[0m  describe `roles`
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('consumer', 'Site Administrator', '2011-06-09 17:20:28', '2011-06-09 17:20:28')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 13:20:28 -0400
+  Processing by HomeController#index as HTML
+Rendered home/index.html.haml within layouts/application (16.5ms)
+Completed 200 OK in 23ms (Views: 22.4ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-06-09 13:20:28 -0400
+  Processing by Devise::RegistrationsController#new as HTML
+Rendered devise/registrations/_form.html.haml (11.5ms)
+Rendered devise/registrations/new.html.haml within layouts/application (100.2ms)
+Completed 200 OK in 109ms (Views: 105.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 13:20:28 -0400
+  Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"full_name"=>"", "email"=>"", "zip"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign Me Up!"}
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mRole Load (0.4ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`name` = 'consumer' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Rendered devise/registrations/_form.html.haml (73.3ms)
+Rendered devise/registrations/new.html.haml within layouts/application (82.7ms)
+Completed 200 OK in 115ms (Views: 83.3ms | ActiveRecord: 0.8ms)
+  [1m[35mSQL (0.6ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.8ms)[0m  describe `roles`
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('consumer', 'Site Administrator', '2011-06-09 17:21:35', '2011-06-09 17:21:35')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 13:21:35 -0400
+  Processing by HomeController#index as HTML
+Rendered home/index.html.haml within layouts/application (16.4ms)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-06-09 13:21:36 -0400
+  Processing by Devise::RegistrationsController#new as HTML
+Rendered devise/registrations/_form.html.haml (10.8ms)
+Rendered devise/registrations/new.html.haml within layouts/application (99.5ms)
+Completed 200 OK in 108ms (Views: 104.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 13:21:36 -0400
+  Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"full_name"=>"", "email"=>"", "zip"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign Me Up!"}
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mRole Load (0.4ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`name` = 'consumer' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Rendered devise/registrations/_form.html.haml (73.5ms)
+Rendered devise/registrations/new.html.haml within layouts/application (82.7ms)
+Completed 200 OK in 114ms (Views: 83.3ms | ActiveRecord: 0.8ms)
+  [1m[35mSQL (0.5ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (1.0ms)[0m  describe `roles`
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('consumer', 'Site Administrator', '2011-06-09 17:22:40', '2011-06-09 17:22:40')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 13:22:40 -0400
+  Processing by HomeController#index as HTML
+Rendered home/index.html.haml within layouts/application (16.4ms)
+Completed 200 OK in 23ms (Views: 22.2ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-06-09 13:22:41 -0400
+  Processing by Devise::RegistrationsController#new as HTML
+Rendered devise/registrations/_form.html.haml (11.4ms)
+Rendered devise/registrations/new.html.haml within layouts/application (32.4ms)
+Completed 200 OK in 41ms (Views: 37.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 13:22:41 -0400
+  Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"full_name"=>"", "email"=>"", "zip"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign Me Up!"}
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mRole Load (0.4ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`name` = 'consumer' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Rendered devise/registrations/_form.html.haml (6.6ms)
+Rendered devise/registrations/new.html.haml within layouts/application (16.3ms)
+Completed 200 OK in 115ms (Views: 17.0ms | ActiveRecord: 0.8ms)
+  [1m[35mSQL (0.4ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.9ms)[0m  describe `roles`
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('consumer', 'Site Administrator', '2011-06-09 17:23:54', '2011-06-09 17:23:54')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-06-09 13:23:54 -0400
+  Processing by Devise::RegistrationsController#new as HTML
+Rendered devise/registrations/_form.html.haml (10.7ms)
+Rendered devise/registrations/new.html.haml within layouts/application (109.1ms)
+Completed 200 OK in 119ms (Views: 114.9ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 13:23:54 -0400
+  Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"full_name"=>"Daisy Quilter", "email"=>"dquilter@stash.com", "zip"=>"01821", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign Me Up!"}
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mRole Load (0.4ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`name` = 'consumer' LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'dquilter@stash.com') LIMIT 1[0m
+  [1m[35mSQL (1.2ms)[0m  describe `users`
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`, `phone`) VALUES ('dquilter@stash.com', '$2a$10$nBUSwaxPc0VgL69x2TJeuuf28xxKEiyH2Br784WIFKqUhzOfE6Zj2', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-06-09 17:23:54', '2011-06-09 17:23:54', 21, 'Daisy Quilter', NULL, NULL, NULL, NULL, '01821', NULL)[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mAREL (0.3ms)[0m  UPDATE `users` SET `last_sign_in_at` = '2011-06-09 17:23:54', `current_sign_in_at` = '2011-06-09 17:23:54', `last_sign_in_ip` = '127.0.0.1', `current_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2011-06-09 17:23:54' WHERE `users`.`id` = 6
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/
+Completed 302 Found in 143ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 13:23:54 -0400
+  Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 6 LIMIT 1
+  [1m[36mRole Load (0.2ms)[0m  [1mSELECT `roles`.* FROM `roles` WHERE `roles`.`id` = 21 LIMIT 1[0m
+Rendered home/index.html.haml within layouts/application (8.1ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.5ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'dquilter@stash.com' LIMIT 1
+  [1m[36mRole Load (0.2ms)[0m  [1mSELECT `roles`.* FROM `roles` WHERE `roles`.`id` = 21 LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('consumer', 'Site Administrator', '2011-06-09 17:23:55', '2011-06-09 17:23:55')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-06-09 17:23:55', '2011-06-09 17:23:55')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'dquilter@stash.com') LIMIT 1[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`, `phone`) VALUES ('dquilter@stash.com', '$2a$10$DH1dMs.lJf9JAvb6XW9ep.OPhCG6x4RO90Y54Ykub9gYv5yIRVRny', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-06-09 17:23:55', '2011-06-09 17:23:55', 23, 'Mrs. Icie O\'Conner', '6499 Braun Loop', 'Lake Marionfort', 'VT', NULL, '41844-6265', '012-280-6433 x6292')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-06-09 13:23:55 -0400
+  Processing by Devise::RegistrationsController#new as HTML
+Rendered devise/registrations/_form.html.haml (7.1ms)
+Rendered devise/registrations/new.html.haml within layouts/application (11.8ms)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 3.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 13:23:55 -0400
+  Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"full_name"=>"", "email"=>"dquilter@stash.com", "zip"=>"84109", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign Me Up!"}
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mRole Load (0.3ms)[0m  [1mSELECT `roles`.* FROM `roles` WHERE `roles`.`name` = 'consumer' LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'dquilter@stash.com') LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Rendered devise/registrations/_form.html.haml (75.5ms)
+Rendered devise/registrations/new.html.haml within layouts/application (83.9ms)
+Completed 200 OK in 175ms (Views: 84.5ms | ActiveRecord: 0.9ms)
+  [1m[35mSQL (0.5ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('consumer', 'Site Administrator', '2011-06-09 17:23:55', '2011-06-09 17:23:55')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-06-09 13:23:55 -0400
+  Processing by Devise::RegistrationsController#new as HTML
+Rendered devise/registrations/_form.html.haml (6.2ms)
+Rendered devise/registrations/new.html.haml within layouts/application (10.1ms)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 13:23:55 -0400
+  Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"full_name"=>"", "email"=>"new_user@stash.com", "zip"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign Me Up!"}
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mRole Load (0.4ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`name` = 'consumer' LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'new_user@stash.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+Rendered devise/registrations/_form.html.haml (73.8ms)
+Rendered devise/registrations/new.html.haml within layouts/application (81.4ms)
+Completed 200 OK in 172ms (Views: 82.0ms | ActiveRecord: 0.9ms)
+  [1m[36mSQL (0.6ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('consumer', 'Site Administrator', '2011-06-09 17:23:55', '2011-06-09 17:23:55')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 13:23:55 -0400
+  Processing by HomeController#index as HTML
+Rendered home/index.html.haml within layouts/application (3.2ms)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-06-09 13:23:55 -0400
+  Processing by Devise::RegistrationsController#new as HTML
+Rendered devise/registrations/_form.html.haml (6.0ms)
+Rendered devise/registrations/new.html.haml within layouts/application (9.8ms)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 13:23:55 -0400
+  Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"full_name"=>"", "email"=>"", "zip"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign Me Up!"}
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mRole Load (0.3ms)[0m  [1mSELECT `roles`.* FROM `roles` WHERE `roles`.`name` = 'consumer' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+Rendered devise/registrations/_form.html.haml (6.3ms)
+Rendered devise/registrations/new.html.haml within layouts/application (83.1ms)
+Completed 200 OK in 93ms (Views: 83.7ms | ActiveRecord: 0.6ms)
+  [1m[36mSQL (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (2.1ms)[0m  describe `roles`
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('consumer', 'Site Administrator', '2011-06-09 17:24:46', '2011-06-09 17:24:46')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-06-09 13:24:46 -0400
+  Processing by Devise::RegistrationsController#new as HTML
+Rendered devise/registrations/_form.html.haml (11.5ms)
+Rendered devise/registrations/new.html.haml within layouts/application (109.4ms)
+Completed 200 OK in 119ms (Views: 115.2ms | ActiveRecord: 3.2ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 13:24:46 -0400
+  Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"full_name"=>"Daisy Quilter", "email"=>"dquilter@stash.com", "zip"=>"01821", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign Me Up!"}
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mRole Load (0.4ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`name` = 'consumer' LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'dquilter@stash.com') LIMIT 1[0m
+  [1m[35mSQL (1.2ms)[0m  describe `users`
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`, `phone`) VALUES ('dquilter@stash.com', '$2a$10$GE5YWE/yDl3mzwR33InQfe7rBFaDr0xz6jHGzcbGMN8bMREhIPNuG', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-06-09 17:24:46', '2011-06-09 17:24:46', 26, 'Daisy Quilter', NULL, NULL, NULL, NULL, '01821', NULL)[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mAREL (0.3ms)[0m  UPDATE `users` SET `last_sign_in_at` = '2011-06-09 17:24:46', `current_sign_in_at` = '2011-06-09 17:24:46', `last_sign_in_ip` = '127.0.0.1', `current_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2011-06-09 17:24:46' WHERE `users`.`id` = 8
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/
+Completed 302 Found in 210ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 13:24:46 -0400
+  Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 8 LIMIT 1
+  [1m[36mRole Load (0.2ms)[0m  [1mSELECT `roles`.* FROM `roles` WHERE `roles`.`id` = 26 LIMIT 1[0m
+Rendered home/index.html.haml within layouts/application (8.6ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.5ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'dquilter@stash.com' LIMIT 1
+  [1m[36mRole Load (0.2ms)[0m  [1mSELECT `roles`.* FROM `roles` WHERE `roles`.`id` = 26 LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('consumer', 'Site Administrator', '2011-06-09 17:24:46', '2011-06-09 17:24:46')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-06-09 17:24:47', '2011-06-09 17:24:47')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'dquilter@stash.com') LIMIT 1[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`, `phone`) VALUES ('dquilter@stash.com', '$2a$10$SLZrzSYo2caY7nAZzr6xP.jBa2LFcWE3LnY2622T4ruirJDHOg1fm', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-06-09 17:24:47', '2011-06-09 17:24:47', 28, 'Myron Shanahan', '175 Okey Parks', 'South Evan', 'OH', NULL, '55107-3952', '753-822-6306 x7938')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-06-09 13:24:47 -0400
+  Processing by Devise::RegistrationsController#new as HTML
+Rendered devise/registrations/_form.html.haml (6.5ms)
+Rendered devise/registrations/new.html.haml within layouts/application (10.8ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 13:24:47 -0400
+  Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"full_name"=>"", "email"=>"dquilter@stash.com", "zip"=>"84109", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign Me Up!"}
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mRole Load (0.3ms)[0m  [1mSELECT `roles`.* FROM `roles` WHERE `roles`.`name` = 'consumer' LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'dquilter@stash.com') LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Rendered devise/registrations/_form.html.haml (7.0ms)
+Rendered devise/registrations/new.html.haml within layouts/application (83.8ms)
+Completed 200 OK in 174ms (Views: 84.4ms | ActiveRecord: 0.9ms)
+  [1m[35mSQL (0.4ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('consumer', 'Site Administrator', '2011-06-09 17:24:47', '2011-06-09 17:24:47')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-06-09 13:24:47 -0400
+  Processing by Devise::RegistrationsController#new as HTML
+Rendered devise/registrations/_form.html.haml (6.4ms)
+Rendered devise/registrations/new.html.haml within layouts/application (10.6ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 13:24:47 -0400
+  Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"full_name"=>"", "email"=>"new_user@stash.com", "zip"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign Me Up!"}
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mRole Load (0.3ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`name` = 'consumer' LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'new_user@stash.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+Rendered devise/registrations/_form.html.haml (74.3ms)
+Rendered devise/registrations/new.html.haml within layouts/application (82.4ms)
+Completed 200 OK in 172ms (Views: 83.0ms | ActiveRecord: 0.8ms)
+  [1m[36mSQL (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('consumer', 'Site Administrator', '2011-06-09 17:24:47', '2011-06-09 17:24:47')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 13:24:47 -0400
+  Processing by HomeController#index as HTML
+Rendered home/index.html.haml within layouts/application (3.2ms)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-06-09 13:24:47 -0400
+  Processing by Devise::RegistrationsController#new as HTML
+Rendered devise/registrations/_form.html.haml (6.3ms)
+Rendered devise/registrations/new.html.haml within layouts/application (10.2ms)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-09 13:24:47 -0400
+  Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"full_name"=>"", "email"=>"", "zip"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign Me Up!"}
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mRole Load (0.3ms)[0m  [1mSELECT `roles`.* FROM `roles` WHERE `roles`.`name` = 'consumer' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+Rendered devise/registrations/_form.html.haml (75.7ms)
+Rendered devise/registrations/new.html.haml within layouts/application (85.5ms)
+Completed 200 OK in 95ms (Views: 86.1ms | ActiveRecord: 0.7ms)
+  [1m[36mSQL (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.8ms)[0m  describe `roles`
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-06-09 17:25:32', '2011-06-09 17:25:32')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'existing_user@stash.org') LIMIT 1
+  [1m[36mSQL (1.2ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`, `phone`) VALUES ('existing_user@stash.org', '$2a$10$cCMu.N.tzBYshvJbEOjinOD6tSMyF8D71mHEzdJQtm7EVzcNxsXBS', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-06-09 17:25:32', '2011-06-09 17:25:32', 31, 'Ricardo Dicki', '0485 Oberbrunner Court', 'Torpton', 'ME', NULL, '65990-3744', '(713)610-7813')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1
+
+
+Started GET "/login" for 127.0.0.1 at 2011-06-09 13:25:32 -0400
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/sessions/new.html.haml within layouts/application (23.2ms)
+Completed 200 OK in 30ms (Views: 28.9ms | ActiveRecord: 4.2ms)
+  [1m[36mSQL (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.8ms)[0m  describe `roles`
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-06-09 17:26:55', '2011-06-09 17:26:55')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'existing_user@stash.org') LIMIT 1
+  [1m[36mSQL (1.3ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`, `phone`) VALUES ('existing_user@stash.org', '$2a$10$IW.fLEX0mYnyQmuDA8XxNOQEexSdUqMS6enE0zB7OsBInx5UJIqsG', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-06-09 17:26:55', '2011-06-09 17:26:55', 32, 'Ramona Zemlak', '788 Kelvin Tunnel', 'South Felipamouth', 'NY', NULL, '09510-7277', '1-658-110-8244 x931')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1
+
+
+Started GET "/login" for 127.0.0.1 at 2011-06-09 13:26:55 -0400
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/sessions/new.html.haml within layouts/application (23.9ms)
+Completed 200 OK in 31ms (Views: 29.8ms | ActiveRecord: 4.2ms)
+  [1m[36mSQL (0.6ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.8ms)[0m  describe `roles`
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-06-09 17:27:42', '2011-06-09 17:27:42')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'existing_user@stash.org') LIMIT 1
+  [1m[36mSQL (1.2ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`, `phone`) VALUES ('existing_user@stash.org', '$2a$10$ZlVgvWxn5uaOb4zAQFNOh.51XCC4q2vBvoEr9EGeGAf9TebDRFYOS', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-06-09 17:27:42', '2011-06-09 17:27:42', 33, 'Terrance Huel MD', '35419 Burley Ports', 'Goyettestad', 'HI', NULL, '76983-9336', '1-567-359-6367 x20800')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1
+
+
+Started GET "/login" for 127.0.0.1 at 2011-06-09 13:27:42 -0400
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/sessions/new.html.haml within layouts/application (23.0ms)
+Completed 200 OK in 30ms (Views: 28.8ms | ActiveRecord: 4.2ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2011-06-09 13:27:43 -0400
+  Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"existing_user@stash.org", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log Me In!"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE `users` SET `last_sign_in_at` = '2011-06-09 17:27:43', `current_sign_in_at` = '2011-06-09 17:27:43', `last_sign_in_ip` = '127.0.0.1', `current_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2011-06-09 17:27:43' WHERE `users`.`id` = 12[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 98ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 13:27:43 -0400
+  Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 12 LIMIT 1[0m
+  [1m[35mRole Load (0.2ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`id` = 33 LIMIT 1
+Rendered home/index.html.haml within layouts/application (8.5ms)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+
+
+Started GET "/users/12/edit" for 127.0.0.1 at 2011-06-09 13:27:43 -0400
+  Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"12"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 12 LIMIT 1
+Rendered users/edit.html.haml within layouts/application (13.2ms)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.5ms)
+  [1m[36mSQL (0.6ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.8ms)[0m  describe `roles`
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-06-09 17:28:51', '2011-06-09 17:28:51')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'existing_user@stash.org') LIMIT 1
+  [1m[36mSQL (1.2ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`, `phone`) VALUES ('existing_user@stash.org', '$2a$10$nwmGnigJYEnmE.rKVXlc7OMU505502ldDYWEZY6BPkMNl3AxARgKW', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-06-09 17:28:51', '2011-06-09 17:28:51', 34, 'Nathanael VonRueden', '937 Rashawn Valley', 'Port Betsymouth', 'GA', NULL, '54818', '(296)490-2702')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1
+
+
+Started GET "/login" for 127.0.0.1 at 2011-06-09 13:28:51 -0400
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/sessions/new.html.haml within layouts/application (23.6ms)
+Completed 200 OK in 31ms (Views: 29.5ms | ActiveRecord: 4.3ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2011-06-09 13:28:51 -0400
+  Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"existing_user@stash.org", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log Me In!"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE `users` SET `last_sign_in_at` = '2011-06-09 17:28:51', `current_sign_in_at` = '2011-06-09 17:28:51', `last_sign_in_ip` = '127.0.0.1', `current_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2011-06-09 17:28:51' WHERE `users`.`id` = 13[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 98ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 13:28:51 -0400
+  Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 13 LIMIT 1[0m
+  [1m[35mRole Load (0.2ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`id` = 34 LIMIT 1
+Rendered home/index.html.haml within layouts/application (8.8ms)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+
+
+Started GET "/users/13/edit" for 127.0.0.1 at 2011-06-09 13:28:52 -0400
+  Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"13"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 13 LIMIT 1
+Rendered users/edit.html.haml within layouts/application (14.4ms)
+Completed 200 OK in 19ms (Views: 16.9ms | ActiveRecord: 0.6ms)
+  [1m[36mSQL (0.8ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.8ms)[0m  describe `roles`
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-06-09 17:31:27', '2011-06-09 17:31:27')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'existing_user@stash.org') LIMIT 1
+  [1m[36mSQL (1.2ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`, `phone`) VALUES ('existing_user@stash.org', '$2a$10$gy5lTBpdUU3CSJ5zfI4WNuSEgXvtXgxUp4U.q2ePtNSd4iobHrfDS', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-06-09 17:31:27', '2011-06-09 17:31:27', 35, 'Verna Lubowitz', '81760 Tillman Village', 'Lynchbury', 'WV', NULL, '90197', '196.871.4452 x00376')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1
+
+
+Started GET "/login" for 127.0.0.1 at 2011-06-09 13:31:27 -0400
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/sessions/new.html.haml within layouts/application (23.6ms)
+Completed 200 OK in 31ms (Views: 29.5ms | ActiveRecord: 4.1ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2011-06-09 13:31:28 -0400
+  Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"existing_user@stash.org", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log Me In!"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.3ms)[0m  [1mUPDATE `users` SET `last_sign_in_at` = '2011-06-09 17:31:28', `current_sign_in_at` = '2011-06-09 17:31:28', `last_sign_in_ip` = '127.0.0.1', `current_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2011-06-09 17:31:28' WHERE `users`.`id` = 14[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 98ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 13:31:28 -0400
+  Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 14 LIMIT 1[0m
+  [1m[35mRole Load (0.2ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`id` = 35 LIMIT 1
+Rendered home/index.html.haml within layouts/application (8.5ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+
+
+Started GET "/users/14/edit" for 127.0.0.1 at 2011-06-09 13:31:28 -0400
+  Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"14"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 14 LIMIT 1
+Rendered users/edit.html.haml within layouts/application (12.8ms)
+Completed 200 OK in 17ms (Views: 15.2ms | ActiveRecord: 0.5ms)
+  [1m[36mSQL (0.7ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.8ms)[0m  describe `roles`
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-06-09 17:32:14', '2011-06-09 17:32:14')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'existing_user@stash.org') LIMIT 1
+  [1m[36mSQL (1.1ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`, `phone`) VALUES ('existing_user@stash.org', '$2a$10$Cnwbz/wdI6KT3RSQ1VF34OI1EuiEbkYxUbklKy5E1ZP6Feq5TXYbi', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-06-09 17:32:14', '2011-06-09 17:32:14', 36, 'Xavier Torphy PhD', '19368 Collins Mountain', 'Kuphalchester', 'SD', NULL, '41213', '(782)306-7752 x43188')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1
+
+
+Started GET "/login" for 127.0.0.1 at 2011-06-09 13:32:14 -0400
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/sessions/new.html.haml within layouts/application (23.8ms)
+Completed 200 OK in 31ms (Views: 29.5ms | ActiveRecord: 4.1ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2011-06-09 13:32:15 -0400
+  Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"existing_user@stash.org", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log Me In!"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.3ms)[0m  [1mUPDATE `users` SET `last_sign_in_at` = '2011-06-09 17:32:15', `current_sign_in_at` = '2011-06-09 17:32:15', `last_sign_in_ip` = '127.0.0.1', `current_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2011-06-09 17:32:15' WHERE `users`.`id` = 15[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 98ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 13:32:15 -0400
+  Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 15 LIMIT 1[0m
+  [1m[35mRole Load (0.2ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`id` = 36 LIMIT 1
+Rendered home/index.html.haml within layouts/application (8.3ms)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.4ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+
+
+Started GET "/users/15/edit" for 127.0.0.1 at 2011-06-09 13:32:15 -0400
+  Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"15"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 15 LIMIT 1
+Rendered users/edit.html.haml within layouts/application (13.5ms)
+Completed 200 OK in 18ms (Views: 16.0ms | ActiveRecord: 0.5ms)
+  [1m[36mSQL (0.7ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.8ms)[0m  describe `roles`
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-06-09 17:36:02', '2011-06-09 17:36:02')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'existing_user@stash.org') LIMIT 1
+  [1m[36mSQL (1.2ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`, `phone`) VALUES ('existing_user@stash.org', '$2a$10$rIU67q8OvBRiNGl.yxkISOsEZ5DGORlFnNGR88xyXqfNRaOsJSZGG', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-06-09 17:36:02', '2011-06-09 17:36:02', 37, 'Pierre Braun', '37168 Ernser Court', 'West Savannah', 'VT', NULL, '82015', '123-778-1147')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1
+
+
+Started GET "/login" for 127.0.0.1 at 2011-06-09 13:36:02 -0400
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/sessions/new.html.haml within layouts/application (23.7ms)
+Completed 200 OK in 98ms (Views: 29.7ms | ActiveRecord: 4.1ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2011-06-09 13:36:03 -0400
+  Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"existing_user@stash.org", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log Me In!"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE `users` SET `last_sign_in_at` = '2011-06-09 17:36:03', `current_sign_in_at` = '2011-06-09 17:36:03', `last_sign_in_ip` = '127.0.0.1', `current_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2011-06-09 17:36:03' WHERE `users`.`id` = 16[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 97ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 13:36:03 -0400
+  Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 16 LIMIT 1[0m
+  [1m[35mRole Load (0.2ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`id` = 37 LIMIT 1
+Rendered home/index.html.haml within layouts/application (8.0ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+
+
+Started GET "/users/16/edit" for 127.0.0.1 at 2011-06-09 13:36:03 -0400
+  Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"16"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 16 LIMIT 1
+Rendered users/edit.html.haml within layouts/application (12.8ms)
+Completed 200 OK in 17ms (Views: 15.1ms | ActiveRecord: 0.5ms)
+  [1m[36mSQL (0.7ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.8ms)[0m  describe `roles`
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-06-09 17:39:25', '2011-06-09 17:39:25')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'existing_user@stash.org') LIMIT 1
+  [1m[36mSQL (1.3ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`, `phone`) VALUES ('existing_user@stash.org', '$2a$10$hQw2BJ0.rV3qtFg9.ekgN.BAY3h4kqsMXy7nMlnpZ3lA2xUYXPot2', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-06-09 17:39:25', '2011-06-09 17:39:25', 38, 'George Wiegand', '843 Fausto Divide', 'Williamsonburgh', 'CO', NULL, '23264', '224-972-3281')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1
+
+
+Started GET "/login" for 127.0.0.1 at 2011-06-09 13:39:25 -0400
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/sessions/new.html.haml within layouts/application (23.8ms)
+Completed 200 OK in 31ms (Views: 29.6ms | ActiveRecord: 4.2ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2011-06-09 13:39:26 -0400
+  Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"existing_user@stash.org", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log Me In!"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE `users` SET `last_sign_in_at` = '2011-06-09 17:39:26', `current_sign_in_at` = '2011-06-09 17:39:26', `last_sign_in_ip` = '127.0.0.1', `current_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2011-06-09 17:39:26' WHERE `users`.`id` = 17[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 98ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 13:39:26 -0400
+  Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 17 LIMIT 1[0m
+  [1m[35mRole Load (0.2ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`id` = 38 LIMIT 1
+Rendered home/index.html.haml within layouts/application (8.0ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+
+
+Started GET "/users/17/edit" for 127.0.0.1 at 2011-06-09 13:39:26 -0400
+  Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"17"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 17 LIMIT 1
+Rendered users/edit.html.haml within layouts/application (12.1ms)
+Completed 200 OK in 16ms (Views: 14.4ms | ActiveRecord: 0.5ms)
+  [1m[36mSQL (0.7ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.8ms)[0m  describe `roles`
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-06-09 17:41:00', '2011-06-09 17:41:00')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'existing_user@stash.org') LIMIT 1
+  [1m[36mSQL (1.1ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`, `phone`) VALUES ('existing_user@stash.org', '$2a$10$2pk2mCO/NkVjeBHdgzkQo.wA/teIg6nXDU8JT.ci0qsYCbqdDM9Zm', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-06-09 17:41:00', '2011-06-09 17:41:00', 39, 'Angela Emard', '00937 Feest Courts', 'Chelseaview', 'FM', NULL, '22714', '1-619-819-5268 x061')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1
+
+
+Started GET "/login" for 127.0.0.1 at 2011-06-09 13:41:00 -0400
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/sessions/new.html.haml within layouts/application (23.1ms)
+Completed 200 OK in 30ms (Views: 28.8ms | ActiveRecord: 4.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2011-06-09 13:41:01 -0400
+  Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"existing_user@stash.org", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log Me In!"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE `users` SET `last_sign_in_at` = '2011-06-09 17:41:01', `current_sign_in_at` = '2011-06-09 17:41:01', `last_sign_in_ip` = '127.0.0.1', `current_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2011-06-09 17:41:01' WHERE `users`.`id` = 18[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 98ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 13:41:01 -0400
+  Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 18 LIMIT 1[0m
+  [1m[35mRole Load (0.2ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`id` = 39 LIMIT 1
+Rendered home/index.html.haml within layouts/application (9.0ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+
+
+Started GET "/users/18/edit" for 127.0.0.1 at 2011-06-09 13:41:01 -0400
+  Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"18"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 18 LIMIT 1
+Rendered users/edit.html.haml within layouts/application (12.6ms)
+Completed 200 OK in 17ms (Views: 14.9ms | ActiveRecord: 0.6ms)
+  [1m[36mSQL (0.6ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.9ms)[0m  describe `roles`
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-06-09 17:41:45', '2011-06-09 17:41:45')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'existing_user@stash.org') LIMIT 1
+  [1m[36mSQL (1.3ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.5ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`, `phone`) VALUES ('existing_user@stash.org', '$2a$10$5IEZxY7QYtSk6c430T2wAOJNhfixcNf/A/oyRQ3Irw61hj1QMa4fi', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-06-09 17:41:45', '2011-06-09 17:41:45', 40, 'Lavina Dickinson', '12023 Littel Fords', 'North Tracy', 'RI', NULL, '87571-8246', '071-092-7559 x518')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1
+
+
+Started GET "/login" for 127.0.0.1 at 2011-06-09 13:41:45 -0400
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/sessions/new.html.haml within layouts/application (23.4ms)
+Completed 200 OK in 31ms (Views: 29.3ms | ActiveRecord: 4.5ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2011-06-09 13:41:46 -0400
+  Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"existing_user@stash.org", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log Me In!"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE `users` SET `last_sign_in_at` = '2011-06-09 17:41:46', `current_sign_in_at` = '2011-06-09 17:41:46', `last_sign_in_ip` = '127.0.0.1', `current_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2011-06-09 17:41:46' WHERE `users`.`id` = 19[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 97ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 13:41:46 -0400
+  Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 19 LIMIT 1[0m
+  [1m[35mRole Load (0.2ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`id` = 40 LIMIT 1
+Rendered home/index.html.haml within layouts/application (7.8ms)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+
+
+Started GET "/users/19/edit" for 127.0.0.1 at 2011-06-09 13:41:46 -0400
+  Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"19"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 19 LIMIT 1
+Rendered users/edit.html.haml within layouts/application (12.6ms)
+Completed 200 OK in 17ms (Views: 14.9ms | ActiveRecord: 0.6ms)
+  [1m[36mSQL (0.8ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.9ms)[0m  describe `roles`
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-06-09 18:51:25', '2011-06-09 18:51:25')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'existing_user@stash.org') LIMIT 1
+  [1m[36mSQL (1.3ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`, `phone`) VALUES ('existing_user@stash.org', '$2a$10$U5JuxWpynsxYySdTwkYPuuBTcklusIbOM.5PhROd5suqcmx.7Lv56', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-06-09 18:51:25', '2011-06-09 18:51:25', 41, 'Magnus Hammes', '245 Greyson Wall', 'Jaquanborough', 'NV', NULL, '19672-7080', '1-226-954-4794 x278')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1
+
+
+Started GET "/login" for 127.0.0.1 at 2011-06-09 14:51:26 -0400
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/sessions/new.html.haml within layouts/application (23.0ms)
+Completed 200 OK in 30ms (Views: 28.8ms | ActiveRecord: 4.1ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2011-06-09 14:51:26 -0400
+  Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"existing_user@stash.org", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log Me In!"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE `users` SET `last_sign_in_at` = '2011-06-09 18:51:26', `current_sign_in_at` = '2011-06-09 18:51:26', `last_sign_in_ip` = '127.0.0.1', `current_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2011-06-09 18:51:26' WHERE `users`.`id` = 20[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 98ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:51:26 -0400
+  Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 20 LIMIT 1[0m
+  [1m[35mRole Load (0.2ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`id` = 41 LIMIT 1
+Rendered home/index.html.haml within layouts/application (8.4ms)
+Completed 200 OK in 14ms (Views: 12.4ms | ActiveRecord: 0.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+
+
+Started GET "/users/20/edit" for 127.0.0.1 at 2011-06-09 14:51:26 -0400
+  Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"20"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 20 LIMIT 1
+Rendered users/edit.html.haml within layouts/application (12.8ms)
+Completed 200 OK in 17ms (Views: 15.3ms | ActiveRecord: 0.5ms)
+  [1m[36mSQL (0.8ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.9ms)[0m  describe `roles`
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-06-09 19:51:29', '2011-06-09 19:51:29')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'existing_user@stash.org') LIMIT 1
+  [1m[36mSQL (1.3ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`, `phone`) VALUES ('existing_user@stash.org', '$2a$10$fpfN.ReLq1DJ/z7VapGree4qzX4hGoX9uYKvjFVfseJOV9eQWdLDi', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-06-09 19:51:29', '2011-06-09 19:51:29', 42, 'Beverly Schaefer', '94533 Gutkowski Ways', 'Aldafurt', 'MP', NULL, '46652-4566', '(420)890-8800')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1
+
+
+Started GET "/login" for 127.0.0.1 at 2011-06-09 15:51:29 -0400
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/sessions/new.html.haml within layouts/application (23.9ms)
+Completed 200 OK in 31ms (Views: 30.0ms | ActiveRecord: 4.5ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2011-06-09 15:51:30 -0400
+  Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"existing_user@stash.org", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log Me In!"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE `users` SET `last_sign_in_at` = '2011-06-09 19:51:30', `current_sign_in_at` = '2011-06-09 19:51:30', `last_sign_in_ip` = '127.0.0.1', `current_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2011-06-09 19:51:30' WHERE `users`.`id` = 21[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 99ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 15:51:30 -0400
+  Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 21 LIMIT 1[0m
+  [1m[35mRole Load (0.2ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`id` = 42 LIMIT 1
+Rendered home/index.html.haml within layouts/application (8.4ms)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+
+
+Started GET "/users/21/edit" for 127.0.0.1 at 2011-06-09 15:51:30 -0400
+  Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"21"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 21 LIMIT 1
+Rendered users/edit.html.haml within layouts/application (13.2ms)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.7ms)
+  [1m[36mSQL (0.7ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.8ms)[0m  describe `roles`
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-06-09 19:52:45', '2011-06-09 19:52:45')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'existing_user@stash.org') LIMIT 1
+  [1m[36mSQL (1.2ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`, `phone`) VALUES ('existing_user@stash.org', '$2a$10$x/C/B6zHihCzPsTqQzA2tOP3JolnLkSNCOVcwdZJDue8AcuP22E6e', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-06-09 19:52:45', '2011-06-09 19:52:45', 43, 'Rashawn Klein V', '15137 Conn View', 'Lake Violetland', 'AL', NULL, '41437-9332', '243.189.4453 x7928')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1
+
+
+Started GET "/login" for 127.0.0.1 at 2011-06-09 15:52:45 -0400
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/sessions/new.html.haml within layouts/application (23.7ms)
+Completed 200 OK in 31ms (Views: 29.6ms | ActiveRecord: 4.1ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2011-06-09 15:52:45 -0400
+  Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"existing_user@stash.org", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log Me In!"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE `users` SET `last_sign_in_at` = '2011-06-09 19:52:45', `current_sign_in_at` = '2011-06-09 19:52:45', `last_sign_in_ip` = '127.0.0.1', `current_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2011-06-09 19:52:45' WHERE `users`.`id` = 22[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 98ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 15:52:45 -0400
+  Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 22 LIMIT 1[0m
+  [1m[35mRole Load (0.2ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`id` = 43 LIMIT 1
+Rendered home/index.html.haml within layouts/application (8.4ms)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+
+
+Started GET "/users/22/edit" for 127.0.0.1 at 2011-06-09 15:52:45 -0400
+  Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"22"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 22 LIMIT 1
+Rendered users/edit.html.haml within layouts/application (12.2ms)
+Completed 200 OK in 17ms (Views: 14.7ms | ActiveRecord: 0.5ms)
+  [1m[36mSQL (0.7ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.8ms)[0m  describe `roles`
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-06-09 19:53:51', '2011-06-09 19:53:51')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'existing_user@stash.org') LIMIT 1
+  [1m[36mSQL (1.3ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`, `phone`) VALUES ('existing_user@stash.org', '$2a$10$qykUHQGbv5uyy876Jw6k4.F/W51RfJHWOMtMGNQc/0LunR.uvoORa', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-06-09 19:53:51', '2011-06-09 19:53:51', 44, 'Pamela Yost', '1564 Germaine Dale', 'Runteberg', 'ME', NULL, '49437', '(367)163-0583')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1
+
+
+Started GET "/login" for 127.0.0.1 at 2011-06-09 15:53:51 -0400
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/sessions/new.html.haml within layouts/application (23.6ms)
+Completed 200 OK in 31ms (Views: 29.4ms | ActiveRecord: 4.4ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2011-06-09 15:53:52 -0400
+  Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"existing_user@stash.org", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log Me In!"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE `users` SET `last_sign_in_at` = '2011-06-09 19:53:52', `current_sign_in_at` = '2011-06-09 19:53:52', `last_sign_in_ip` = '127.0.0.1', `current_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2011-06-09 19:53:52' WHERE `users`.`id` = 23[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 98ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 15:53:52 -0400
+  Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 23 LIMIT 1[0m
+  [1m[35mRole Load (0.2ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`id` = 44 LIMIT 1
+Rendered home/index.html.haml within layouts/application (8.0ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+
+
+Started GET "/users/23/edit" for 127.0.0.1 at 2011-06-09 15:53:52 -0400
+  Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"23"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 23 LIMIT 1
+Rendered users/edit.html.haml within layouts/application (12.9ms)
+Completed 200 OK in 17ms (Views: 15.2ms | ActiveRecord: 0.6ms)
+  [1m[36mSQL (0.7ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.8ms)[0m  describe `roles`
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-06-09 19:59:16', '2011-06-09 19:59:16')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'existing_user@stash.org') LIMIT 1
+  [1m[36mSQL (1.2ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`, `phone`) VALUES ('existing_user@stash.org', '$2a$10$Dv4M15KdsEH2x3Y4gVyTs.0DGY4eI3G0qj/ixDkY6TmbXCNhgfQuu', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-06-09 19:59:16', '2011-06-09 19:59:16', 45, 'Chaz Steuber', '023 Marvin Lake', 'Bethelport', 'IN', NULL, '60528-8754', '871.993.1909 x104')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1
+
+
+Started GET "/login" for 127.0.0.1 at 2011-06-09 15:59:16 -0400
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/sessions/new.html.haml within layouts/application (22.7ms)
+Completed 200 OK in 30ms (Views: 28.6ms | ActiveRecord: 4.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2011-06-09 15:59:17 -0400
+  Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"existing_user@stash.org", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log Me In!"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE `users` SET `last_sign_in_at` = '2011-06-09 19:59:17', `current_sign_in_at` = '2011-06-09 19:59:17', `last_sign_in_ip` = '127.0.0.1', `current_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2011-06-09 19:59:17' WHERE `users`.`id` = 24[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 98ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 15:59:17 -0400
+  Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 24 LIMIT 1[0m
+  [1m[35mRole Load (0.2ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`id` = 45 LIMIT 1
+Rendered home/index.html.haml within layouts/application (8.4ms)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+
+
+Started GET "/users/24/edit" for 127.0.0.1 at 2011-06-09 15:59:17 -0400
+  Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"24"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 24 LIMIT 1
+Rendered users/edit.html.haml within layouts/application (13.1ms)
+Completed 200 OK in 18ms (Views: 15.7ms | ActiveRecord: 0.5ms)
+  [1m[36mSQL (1.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.8ms)[0m  describe `roles`
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-06-09 20:18:21', '2011-06-09 20:18:21')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'existing_user@stash.org') LIMIT 1
+  [1m[36mSQL (1.4ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`, `phone`) VALUES ('existing_user@stash.org', '$2a$10$hIphVRjcCLN.zFhnIBR5E.8QskfHuXuUVO0VWfkwsyNiaUXz3ZZOi', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-06-09 20:18:21', '2011-06-09 20:18:21', 46, 'Elinore Brakus', '33192 Hagenes Shores', 'Murazikton', 'TX', NULL, '15435', '1-553-982-0082')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1
+
+
+Started GET "/login" for 127.0.0.1 at 2011-06-09 16:18:21 -0400
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/sessions/new.html.haml within layouts/application (25.9ms)
+Completed 200 OK in 33ms (Views: 31.8ms | ActiveRecord: 4.6ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2011-06-09 16:18:21 -0400
+  Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"existing_user@stash.org", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log Me In!"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.5ms)[0m  [1mUPDATE `users` SET `last_sign_in_at` = '2011-06-09 20:18:21', `current_sign_in_at` = '2011-06-09 20:18:21', `last_sign_in_ip` = '127.0.0.1', `current_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2011-06-09 20:18:21' WHERE `users`.`id` = 25[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 98ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 16:18:21 -0400
+  Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 25 LIMIT 1[0m
+  [1m[35mRole Load (0.2ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`id` = 46 LIMIT 1
+Rendered home/index.html.haml within layouts/application (9.1ms)
+Completed 200 OK in 15ms (Views: 13.2ms | ActiveRecord: 0.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+
+
+Started GET "/users/25/edit" for 127.0.0.1 at 2011-06-09 16:18:22 -0400
+  Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"25"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 25 LIMIT 1
+Rendered users/edit.html.haml within layouts/application (13.5ms)
+Completed 200 OK in 18ms (Views: 16.0ms | ActiveRecord: 0.5ms)
+  [1m[36mSQL (0.7ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.9ms)[0m  describe `roles`
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-06-09 20:20:14', '2011-06-09 20:20:14')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'existing_user@stash.org') LIMIT 1
+  [1m[36mSQL (1.4ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`, `phone`) VALUES ('existing_user@stash.org', '$2a$10$ffOF/EEcy2Mtg6tsAS/LguKW.wv95iUYtx4yaxAcYXNvxJxZRobWC', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-06-09 20:20:14', '2011-06-09 20:20:14', 47, 'Winnifred Romaguera', '30273 Emard Glen', 'Myamouth', 'UT', NULL, '24867', '941-957-9372 x77982')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1
+
+
+Started GET "/login" for 127.0.0.1 at 2011-06-09 16:20:14 -0400
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/sessions/new.html.haml within layouts/application (24.1ms)
+Completed 200 OK in 31ms (Views: 29.8ms | ActiveRecord: 4.4ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2011-06-09 16:20:15 -0400
+  Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"existing_user@stash.org", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log Me In!"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE `users` SET `last_sign_in_at` = '2011-06-09 20:20:15', `current_sign_in_at` = '2011-06-09 20:20:15', `last_sign_in_ip` = '127.0.0.1', `current_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2011-06-09 20:20:15' WHERE `users`.`id` = 26[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 97ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 16:20:15 -0400
+  Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 26 LIMIT 1[0m
+  [1m[35mRole Load (0.2ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`id` = 47 LIMIT 1
+Rendered home/index.html.haml within layouts/application (8.8ms)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.6ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+
+
+Started GET "/users/26/edit" for 127.0.0.1 at 2011-06-09 16:20:15 -0400
+  Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"26"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 26 LIMIT 1
+Rendered users/edit.html.haml within layouts/application (13.0ms)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.8ms)
+  [1m[36mSQL (1.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.8ms)[0m  describe `roles`
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-06-09 20:24:11', '2011-06-09 20:24:11')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'existing_user@stash.org') LIMIT 1
+  [1m[36mSQL (1.4ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`, `phone`) VALUES ('existing_user@stash.org', '$2a$10$j3.So7hdY.zzzhuWKu1sCeQaKrvufbAAoy6Qvlni83/A1efU1qXeq', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-06-09 20:24:11', '2011-06-09 20:24:11', 48, 'Bryce Braun', '18677 Kira Loaf', 'West Stantonshire', 'MD', NULL, '33672-1921', '(739)886-7096')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1
+
+
+Started GET "/login" for 127.0.0.1 at 2011-06-09 16:24:11 -0400
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/sessions/new.html.haml within layouts/application (24.4ms)
+Completed 200 OK in 31ms (Views: 30.2ms | ActiveRecord: 4.6ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2011-06-09 16:24:12 -0400
+  Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"existing_user@stash.org", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log Me In!"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE `users` SET `last_sign_in_at` = '2011-06-09 20:24:12', `current_sign_in_at` = '2011-06-09 20:24:12', `last_sign_in_ip` = '127.0.0.1', `current_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2011-06-09 20:24:12' WHERE `users`.`id` = 27[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 98ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 16:24:12 -0400
+  Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 27 LIMIT 1[0m
+  [1m[35mRole Load (0.2ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`id` = 48 LIMIT 1
+Rendered home/index.html.haml within layouts/application (8.9ms)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.7ms)
+  [1m[36mSQL (0.6ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.8ms)[0m  describe `roles`
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-06-09 20:24:58', '2011-06-09 20:24:58')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'existing_user@stash.org') LIMIT 1
+  [1m[36mSQL (1.3ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`, `phone`) VALUES ('existing_user@stash.org', '$2a$10$uZpJ5Tudlhf7SgGArKxn4eK/SAM3d1nBuAQMZhAvoecOBQSfVTGDK', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-06-09 20:24:58', '2011-06-09 20:24:58', 49, 'Jayden Hoeger', '202 Feil Mills', 'Octaviashire', 'VI', NULL, '44127', '(646)468-0704 x1398')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1
+
+
+Started GET "/login" for 127.0.0.1 at 2011-06-09 16:24:58 -0400
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/sessions/new.html.haml within layouts/application (25.1ms)
+Completed 200 OK in 33ms (Views: 31.3ms | ActiveRecord: 4.6ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2011-06-09 16:24:59 -0400
+  Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"existing_user@stash.org", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log Me In!"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.3ms)[0m  [1mUPDATE `users` SET `last_sign_in_at` = '2011-06-09 20:24:59', `current_sign_in_at` = '2011-06-09 20:24:59', `last_sign_in_ip` = '127.0.0.1', `current_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2011-06-09 20:24:59' WHERE `users`.`id` = 28[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 98ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 16:24:59 -0400
+  Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 28 LIMIT 1[0m
+  [1m[35mRole Load (0.2ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`id` = 49 LIMIT 1
+Rendered home/index.html.haml within layouts/application (8.9ms)
+Completed 200 OK in 83ms (Views: 82.0ms | ActiveRecord: 0.6ms)
+  [1m[36mSQL (0.6ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (1.0ms)[0m  describe `roles`
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-06-09 20:25:30', '2011-06-09 20:25:30')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'existing_user@stash.org') LIMIT 1
+  [1m[36mSQL (1.2ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`, `phone`) VALUES ('existing_user@stash.org', '$2a$10$BKiXy71BVBK9YuSelzZgxeGF4cUiYJ7vCcLkK5yTR/vrzy0SJtlty', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-06-09 20:25:30', '2011-06-09 20:25:30', 50, 'Tito Walter', '759 Kerluke Road', 'Gradyshire', 'FL', NULL, '84161', '(586)339-5796 x80895')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1
+
+
+Started GET "/login" for 127.0.0.1 at 2011-06-09 16:25:30 -0400
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/sessions/new.html.haml within layouts/application (24.0ms)
+Completed 200 OK in 31ms (Views: 29.8ms | ActiveRecord: 4.7ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2011-06-09 16:25:30 -0400
+  Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"existing_user@stash.org", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log Me In!"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.3ms)[0m  [1mUPDATE `users` SET `last_sign_in_at` = '2011-06-09 20:25:30', `current_sign_in_at` = '2011-06-09 20:25:30', `last_sign_in_ip` = '127.0.0.1', `current_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2011-06-09 20:25:30' WHERE `users`.`id` = 29[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 98ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 16:25:30 -0400
+  Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 29 LIMIT 1[0m
+  [1m[35mRole Load (0.2ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`id` = 50 LIMIT 1
+Rendered home/index.html.haml within layouts/application (8.9ms)
+Completed 200 OK in 15ms (Views: 13.3ms | ActiveRecord: 0.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+
+
+Started GET "/users/29/edit" for 127.0.0.1 at 2011-06-09 16:25:30 -0400
+  Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"29"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 29 LIMIT 1
+Rendered users/edit.html.haml within layouts/application (12.8ms)
+Completed 200 OK in 17ms (Views: 15.2ms | ActiveRecord: 0.5ms)
+  [1m[36mSQL (0.6ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.8ms)[0m  describe `roles`
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-06-09 20:26:05', '2011-06-09 20:26:05')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'existing_user@stash.org') LIMIT 1
+  [1m[36mSQL (1.3ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`, `phone`) VALUES ('existing_user@stash.org', '$2a$10$0/73Y0.NFuHu8AqikQcZeOxrhEVJbF75FJ37TI9FFdr/kCkxpC3FG', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-06-09 20:26:05', '2011-06-09 20:26:05', 51, 'Claire Hansen', '18027 Ortiz Union', 'Bergnaumport', 'NC', NULL, '29649-1987', '335-393-4436')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1
+
+
+Started GET "/login" for 127.0.0.1 at 2011-06-09 16:26:05 -0400
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/sessions/new.html.haml within layouts/application (25.4ms)
+Completed 200 OK in 32ms (Views: 31.2ms | ActiveRecord: 4.2ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2011-06-09 16:26:05 -0400
+  Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"existing_user@stash.org", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log Me In!"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE `users` SET `last_sign_in_at` = '2011-06-09 20:26:05', `current_sign_in_at` = '2011-06-09 20:26:05', `last_sign_in_ip` = '127.0.0.1', `current_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2011-06-09 20:26:05' WHERE `users`.`id` = 30[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 98ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 16:26:05 -0400
+  Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 30 LIMIT 1[0m
+  [1m[35mRole Load (0.2ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`id` = 51 LIMIT 1
+Rendered home/index.html.haml within layouts/application (8.9ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.6ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+
+
+Started GET "/users/30/edit" for 127.0.0.1 at 2011-06-09 16:26:06 -0400
+  Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"30"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 30 LIMIT 1
+Rendered users/edit.html.haml within layouts/application (12.6ms)
+Completed 200 OK in 17ms (Views: 14.9ms | ActiveRecord: 0.7ms)
+  [1m[36mSQL (0.7ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (1.1ms)[0m  describe `roles`
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-06-09 20:28:22', '2011-06-09 20:28:22')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'existing_user@stash.org') LIMIT 1
+  [1m[36mSQL (1.4ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`, `phone`) VALUES ('existing_user@stash.org', '$2a$10$V/HQje5/OYCLIGUlbhMFie4JKXeIf9cUlCVwHYv9jqLeAJ5yqZN0a', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-06-09 20:28:22', '2011-06-09 20:28:22', 52, 'Kaitlin Breitenberg', '7476 Aisha Camp', 'Heathcotemouth', 'OR', NULL, '67575-9042', '749.743.1324 x229')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1
+
+
+Started GET "/login" for 127.0.0.1 at 2011-06-09 16:28:22 -0400
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/sessions/new.html.haml within layouts/application (24.2ms)
+Completed 200 OK in 31ms (Views: 30.1ms | ActiveRecord: 4.8ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2011-06-09 16:28:22 -0400
+  Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"existing_user@stash.org", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log Me In!"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE `users` SET `last_sign_in_at` = '2011-06-09 20:28:22', `current_sign_in_at` = '2011-06-09 20:28:22', `last_sign_in_ip` = '127.0.0.1', `current_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2011-06-09 20:28:22' WHERE `users`.`id` = 31[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 98ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 16:28:22 -0400
+  Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 31 LIMIT 1[0m
+  [1m[35mRole Load (0.2ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`id` = 52 LIMIT 1
+Rendered home/index.html.haml within layouts/application (9.0ms)
+Completed 200 OK in 15ms (Views: 13.3ms | ActiveRecord: 0.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+
+
+Started GET "/users/31/edit" for 127.0.0.1 at 2011-06-09 16:28:23 -0400
+  Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"31"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 31 LIMIT 1
+Rendered users/edit.html.haml within layouts/application (13.2ms)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.6ms)
+  [1m[36mSQL (0.7ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (1.1ms)[0m  describe `roles`
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-06-09 20:29:50', '2011-06-09 20:29:50')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'existing_user@stash.org') LIMIT 1
+  [1m[36mSQL (1.1ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`, `phone`) VALUES ('existing_user@stash.org', '$2a$10$trEgzr1OevBsNu2mgNBoi.pxoXXjjfhNW0k7UTdKw7OA9Xfherv2S', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-06-09 20:29:50', '2011-06-09 20:29:50', 53, 'Camila Schneider', '499 Okuneva Canyon', 'West Otilia', 'MD', NULL, '70227-7448', '381.222.4760 x3782')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1
+
+
+Started GET "/login" for 127.0.0.1 at 2011-06-09 16:29:50 -0400
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/sessions/new.html.haml within layouts/application (24.3ms)
+Completed 200 OK in 31ms (Views: 30.1ms | ActiveRecord: 4.2ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2011-06-09 16:29:51 -0400
+  Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"existing_user@stash.org", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log Me In!"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE `users` SET `last_sign_in_at` = '2011-06-09 20:29:51', `current_sign_in_at` = '2011-06-09 20:29:51', `last_sign_in_ip` = '127.0.0.1', `current_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2011-06-09 20:29:51' WHERE `users`.`id` = 32[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 98ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 16:29:51 -0400
+  Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 32 LIMIT 1[0m
+  [1m[35mRole Load (0.5ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`id` = 53 LIMIT 1
+Rendered home/index.html.haml within layouts/application (10.3ms)
+Completed 200 OK in 85ms (Views: 83.1ms | ActiveRecord: 0.9ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+
+
+Started GET "/users/32/edit" for 127.0.0.1 at 2011-06-09 16:29:51 -0400
+  Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"32"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 32 LIMIT 1
+Rendered users/edit.html.haml within layouts/application (13.7ms)
+Completed 200 OK in 18ms (Views: 16.1ms | ActiveRecord: 0.6ms)
+  [1m[36mSQL (0.7ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.8ms)[0m  describe `roles`
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-06-09 20:30:16', '2011-06-09 20:30:16')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'existing_user@stash.org') LIMIT 1
+  [1m[36mSQL (1.3ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`, `phone`) VALUES ('existing_user@stash.org', '$2a$10$IdNKfaan1xMCy7WLqt4iDu3vR.D/.yecWgQIV1yZaQ9pQIq0LZcJy', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-06-09 20:30:16', '2011-06-09 20:30:16', 54, 'Elena Ledner', '3393 Durgan Curve', 'North Nathanael', 'WV', NULL, '54171-6190', '486-088-0976 x37909')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1
+
+
+Started GET "/login" for 127.0.0.1 at 2011-06-09 16:30:16 -0400
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/sessions/new.html.haml within layouts/application (24.3ms)
+Completed 200 OK in 31ms (Views: 30.1ms | ActiveRecord: 4.3ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2011-06-09 16:30:16 -0400
+  Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"existing_user@stash.org", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log Me In!"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE `users` SET `last_sign_in_at` = '2011-06-09 20:30:16', `current_sign_in_at` = '2011-06-09 20:30:16', `last_sign_in_ip` = '127.0.0.1', `current_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2011-06-09 20:30:16' WHERE `users`.`id` = 33[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 98ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 16:30:16 -0400
+  Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 33 LIMIT 1[0m
+  [1m[35mRole Load (0.2ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`id` = 54 LIMIT 1
+Rendered home/index.html.haml within layouts/application (9.8ms)
+Completed 200 OK in 16ms (Views: 14.2ms | ActiveRecord: 0.7ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+
+
+Started GET "/users/33/edit" for 127.0.0.1 at 2011-06-09 16:30:17 -0400
+  Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"33"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 33 LIMIT 1
+Rendered users/edit.html.haml within layouts/application (12.8ms)
+Completed 200 OK in 17ms (Views: 15.2ms | ActiveRecord: 0.7ms)
+  [1m[36mSQL (0.7ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.8ms)[0m  describe `roles`
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-06-09 20:31:59', '2011-06-09 20:31:59')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'existing_user@stash.org') LIMIT 1
+  [1m[36mSQL (1.5ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`, `phone`) VALUES ('existing_user@stash.org', '$2a$10$.hwy394y.X9QeKr6.Lo.UufZ2qluvS5ALLLzZJoTAXP.OnbBXglv2', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-06-09 20:31:59', '2011-06-09 20:31:59', 55, 'Omari Ziemann', '2693 Maximilian Glen', 'New Hillardland', 'DE', NULL, '71801', '716.790.1799')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1
+
+
+Started GET "/login" for 127.0.0.1 at 2011-06-09 16:31:59 -0400
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/sessions/new.html.haml within layouts/application (24.0ms)
+Completed 200 OK in 31ms (Views: 29.7ms | ActiveRecord: 4.7ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2011-06-09 16:31:59 -0400
+  Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"existing_user@stash.org", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log Me In!"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE `users` SET `last_sign_in_at` = '2011-06-09 20:31:59', `current_sign_in_at` = '2011-06-09 20:31:59', `last_sign_in_ip` = '127.0.0.1', `current_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2011-06-09 20:31:59' WHERE `users`.`id` = 34[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 169ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 16:32:00 -0400
+  Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 34 LIMIT 1[0m
+  [1m[35mRole Load (0.2ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`id` = 55 LIMIT 1
+Rendered home/index.html.haml within layouts/application (9.2ms)
+Completed 200 OK in 15ms (Views: 13.2ms | ActiveRecord: 0.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+
+
+Started GET "/users/34/edit" for 127.0.0.1 at 2011-06-09 16:32:00 -0400
+  Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"34"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 34 LIMIT 1
+Rendered users/edit.html.haml within layouts/application (12.9ms)
+Completed 200 OK in 17ms (Views: 15.3ms | ActiveRecord: 0.7ms)
+  [1m[36mSQL (0.6ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.8ms)[0m  describe `roles`
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-06-09 20:34:19', '2011-06-09 20:34:19')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'existing_user@stash.org') LIMIT 1
+  [1m[36mSQL (1.4ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`, `phone`) VALUES ('existing_user@stash.org', '$2a$10$.dVOccUwlSV4Ty8yVGZLcu8ihti21jROFGwD/DC3qU0QJsz1am.Mq', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-06-09 20:34:19', '2011-06-09 20:34:19', 56, 'Katelyn McKenzie II', '861 Maya Spurs', 'Carmenstad', 'AS', NULL, '19839', '1-499-768-7910')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1
+
+
+Started GET "/login" for 127.0.0.1 at 2011-06-09 16:34:19 -0400
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/sessions/new.html.haml within layouts/application (28.1ms)
+Completed 200 OK in 36ms (Views: 34.6ms | ActiveRecord: 4.9ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2011-06-09 16:34:20 -0400
+  Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"existing_user@stash.org", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log Me In!"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE `users` SET `last_sign_in_at` = '2011-06-09 20:34:20', `current_sign_in_at` = '2011-06-09 20:34:20', `last_sign_in_ip` = '127.0.0.1', `current_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2011-06-09 20:34:20' WHERE `users`.`id` = 35[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 98ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 16:34:20 -0400
+  Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 35 LIMIT 1[0m
+  [1m[35mRole Load (0.2ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`id` = 56 LIMIT 1
+Rendered home/index.html.haml within layouts/application (8.7ms)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+
+
+Started GET "/users/35/edit" for 127.0.0.1 at 2011-06-09 16:34:20 -0400
+  Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"35"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 35 LIMIT 1
+Rendered users/edit.html.haml within layouts/application (13.1ms)
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.5ms)
+  [1m[36mSQL (0.8ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.8ms)[0m  describe `roles`
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-06-09 20:36:48', '2011-06-09 20:36:48')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'existing_user@stash.org') LIMIT 1
+  [1m[36mSQL (1.2ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`, `phone`) VALUES ('existing_user@stash.org', '$2a$10$h.bmfjB18sT6oG6k.3MXjeT78I4mQZ2.GjwI3wPlxhR3XoxOViRJ.', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-06-09 20:36:48', '2011-06-09 20:36:48', 57, 'Ms. Willie Wuckert', '00222 Morissette Pines', 'Einarport', 'PW', NULL, '40575', '(913)114-8517 x31979')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1
+
+
+Started GET "/login" for 127.0.0.1 at 2011-06-09 16:36:48 -0400
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/sessions/new.html.haml within layouts/application (23.6ms)
+Completed 200 OK in 31ms (Views: 29.5ms | ActiveRecord: 4.2ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2011-06-09 16:36:49 -0400
+  Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"existing_user@stash.org", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log Me In!"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE `users` SET `last_sign_in_at` = '2011-06-09 20:36:49', `current_sign_in_at` = '2011-06-09 20:36:49', `last_sign_in_ip` = '127.0.0.1', `current_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2011-06-09 20:36:49' WHERE `users`.`id` = 36[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 167ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 16:36:49 -0400
+  Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 36 LIMIT 1[0m
+  [1m[35mRole Load (0.2ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`id` = 57 LIMIT 1
+Rendered home/index.html.haml within layouts/application (10.0ms)
+Completed 200 OK in 16ms (Views: 14.2ms | ActiveRecord: 0.7ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+
+
+Started GET "/users/36/edit" for 127.0.0.1 at 2011-06-09 16:36:49 -0400
+  Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"36"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 36 LIMIT 1
+Rendered users/edit.html.haml within layouts/application (14.6ms)
+Completed 200 OK in 19ms (Views: 17.1ms | ActiveRecord: 0.6ms)
+  [1m[36mSQL (0.6ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.9ms)[0m  describe `roles`
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-06-09 20:39:02', '2011-06-09 20:39:02')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'existing_user@stash.org') LIMIT 1
+  [1m[36mSQL (1.3ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`, `phone`) VALUES ('existing_user@stash.org', '$2a$10$i/23VYDPEE8XNGc86ZEy7OpByfz1ioY2TELXIBnXCtJEPZmqlBI9G', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-06-09 20:39:02', '2011-06-09 20:39:02', 58, 'Rolando Carter IV', '1751 Osinski Isle', 'Port Karley', 'MN', NULL, '92975-9658', '1-868-000-0471 x16803')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1
+
+
+Started GET "/login" for 127.0.0.1 at 2011-06-09 16:39:02 -0400
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/sessions/new.html.haml within layouts/application (25.1ms)
+Completed 200 OK in 32ms (Views: 30.9ms | ActiveRecord: 4.4ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2011-06-09 16:39:03 -0400
+  Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"existing_user@stash.org", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log Me In!"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE `users` SET `last_sign_in_at` = '2011-06-09 20:39:03', `current_sign_in_at` = '2011-06-09 20:39:03', `last_sign_in_ip` = '127.0.0.1', `current_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2011-06-09 20:39:03' WHERE `users`.`id` = 37[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 98ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 16:39:03 -0400
+  Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 37 LIMIT 1[0m
+  [1m[35mRole Load (0.2ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`id` = 58 LIMIT 1
+Rendered home/index.html.haml within layouts/application (8.8ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.6ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+
+
+Started GET "/users/37/edit" for 127.0.0.1 at 2011-06-09 16:39:03 -0400
+  Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"37"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 37 LIMIT 1
+Rendered users/edit.html.haml within layouts/application (12.9ms)
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.8ms)
+  [1m[36mSQL (0.7ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.8ms)[0m  describe `roles`
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-06-09 20:40:21', '2011-06-09 20:40:21')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'existing_user@stash.org') LIMIT 1
+  [1m[36mSQL (1.3ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`, `phone`) VALUES ('existing_user@stash.org', '$2a$10$QWkDhhjPEFky5arNvy4H3OJ02NH.fVcX3vVft55FjtQ4GQZy6P8AG', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-06-09 20:40:21', '2011-06-09 20:40:21', 59, 'Mr. Kelsie Mante', '135 Rempel Freeway', 'Lake Christyshire', 'VI', NULL, '03413', '653-367-8698 x46496')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1
+
+
+Started GET "/login" for 127.0.0.1 at 2011-06-09 16:40:21 -0400
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/sessions/new.html.haml within layouts/application (25.2ms)
+Completed 200 OK in 33ms (Views: 31.4ms | ActiveRecord: 4.2ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2011-06-09 16:40:21 -0400
+  Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"existing_user@stash.org", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log Me In!"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE `users` SET `last_sign_in_at` = '2011-06-09 20:40:22', `current_sign_in_at` = '2011-06-09 20:40:22', `last_sign_in_ip` = '127.0.0.1', `current_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2011-06-09 20:40:22' WHERE `users`.`id` = 38[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 168ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 16:40:22 -0400
+  Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 38 LIMIT 1[0m
+  [1m[35mRole Load (0.2ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`id` = 59 LIMIT 1
+Rendered home/index.html.haml within layouts/application (9.6ms)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.7ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+
+
+Started GET "/users/38/edit" for 127.0.0.1 at 2011-06-09 16:40:22 -0400
+  Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"38"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 38 LIMIT 1
+Rendered users/edit.html.haml within layouts/application (13.7ms)
+Completed 200 OK in 18ms (Views: 16.1ms | ActiveRecord: 0.6ms)
+  [1m[36mSQL (0.7ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.8ms)[0m  describe `roles`
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-06-09 20:44:58', '2011-06-09 20:44:58')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'existing_user@stash.org') LIMIT 1
+  [1m[36mSQL (1.4ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`, `phone`) VALUES ('existing_user@stash.org', '$2a$10$yjhNWpCDKFcaljfbWmLIquVwMhltwaMwp/TyiZYSfgfeYZ1Cgkrfa', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-06-09 20:44:58', '2011-06-09 20:44:58', 60, 'Minnie Fay', '4396 Stephen Causeway', 'Rosalindaville', 'AZ', NULL, '47298-7056', '309.772.7119 x7167')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1
+
+
+Started GET "/login" for 127.0.0.1 at 2011-06-09 16:44:58 -0400
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/sessions/new.html.haml within layouts/application (23.3ms)
+Completed 200 OK in 30ms (Views: 29.1ms | ActiveRecord: 4.3ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2011-06-09 16:44:58 -0400
+  Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"existing_user@stash.org", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log Me In!"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE `users` SET `last_sign_in_at` = '2011-06-09 20:44:59', `current_sign_in_at` = '2011-06-09 20:44:59', `last_sign_in_ip` = '127.0.0.1', `current_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2011-06-09 20:44:59' WHERE `users`.`id` = 39[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 167ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 16:44:59 -0400
+  Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 39 LIMIT 1[0m
+  [1m[35mRole Load (0.2ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`id` = 60 LIMIT 1
+Rendered home/index.html.haml within layouts/application (9.0ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+
+
+Started GET "/users/39/edit" for 127.0.0.1 at 2011-06-09 16:44:59 -0400
+  Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"39"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 39 LIMIT 1
+Rendered users/edit.html.haml within layouts/application (12.7ms)
+Completed 200 OK in 17ms (Views: 15.1ms | ActiveRecord: 0.5ms)
+  [1m[36mSQL (0.7ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (1.0ms)[0m  describe `roles`
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `roles` (`name`, `description`, `created_at`, `updated_at`) VALUES ('cousin', 'Site Administrator', '2011-06-09 20:46:02', '2011-06-09 20:46:02')[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.`id` FROM `users` WHERE (`users`.`email` = BINARY 'existing_user@stash.org') LIMIT 1
+  [1m[36mSQL (1.4ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `reset_password_token`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `created_at`, `updated_at`, `role_id`, `full_name`, `street_address`, `city`, `state`, `country`, `zip`, `phone`) VALUES ('existing_user@stash.org', '$2a$10$Goij.CKswTt5xDtRguhLKOYHUKnXrQBwnXPtUP2nfVvkEkppGXhyq', NULL, NULL, 0, NULL, NULL, NULL, NULL, '2011-06-09 20:46:03', '2011-06-09 20:46:03', 61, 'Jennifer Kozey', '444 Javon Isle', 'Schusterville', 'NC', NULL, '55850', '921-081-4103')
+  [1m[36mSQL (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1
+
+
+Started GET "/login" for 127.0.0.1 at 2011-06-09 16:46:03 -0400
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/sessions/new.html.haml within layouts/application (23.9ms)
+Completed 200 OK in 31ms (Views: 29.7ms | ActiveRecord: 4.6ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2011-06-09 16:46:03 -0400
+  Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"existing_user@stash.org", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log Me In!"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE `users` SET `last_sign_in_at` = '2011-06-09 20:46:03', `current_sign_in_at` = '2011-06-09 20:46:03', `last_sign_in_ip` = '127.0.0.1', `current_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2011-06-09 20:46:03' WHERE `users`.`id` = 40[0m
+  [1m[35mSQL (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 168ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 16:46:03 -0400
+  Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 40 LIMIT 1[0m
+  [1m[35mRole Load (0.2ms)[0m  SELECT `roles`.* FROM `roles` WHERE `roles`.`id` = 61 LIMIT 1
+Rendered home/index.html.haml within layouts/application (9.3ms)
+Completed 200 OK in 15ms (Views: 13.6ms | ActiveRecord: 0.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'existing_user@stash.org' LIMIT 1[0m
+
+
+Started GET "/users/40/edit" for 127.0.0.1 at 2011-06-09 16:46:03 -0400
+  Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"40"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 40 LIMIT 1
+Rendered users/edit.html.haml within layouts/application (12.7ms)
+Completed 200 OK in 17ms (Views: 15.1ms | ActiveRecord: 0.5ms)
+  [1m[36mSQL (0.7ms)[0m  [1mROLLBACK[0m

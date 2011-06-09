@@ -1,9 +1,7 @@
 #content
   #heading
-    %h1= 'Edit Profile'
-
     - @title = 'Edit Your Information'
-    - form_for :user, :url=> edit_user_path(@user), :html=> {:method => :put} do |form|
+    - form_for :user, :url=> edit_user_path(@user), :html=> {:method => :put, :id=>"user_form"} do |form|
       = form.hidden_field :id
       %div
         %label.desc{:for => "full_name"} Full Name
@@ -12,7 +10,7 @@
         %label.desc{:for => "email"} Email
         = form.text_field :email, :class => "txt"
       %div
-        %label.desc{:for => "street_address"} Address 1
+        %label.desc{:for => "street_address"} Street Address
         = form.text_field :street_address, :class => "txt"
       %div
         %label.desc{:for => "city"} City

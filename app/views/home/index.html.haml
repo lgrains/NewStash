@@ -3,6 +3,7 @@
 #left
   %h2 Here are some of the things you can do
   %ul
+    %li= link_to 'Not a member? Sign up now!', new_user_registration_path
     %li
       - if logged_in?
         = link_to 'Logout', :controller => :users, :action => :logout
@@ -11,5 +12,7 @@
     / %li= link_to 'View and accept your pending exchanges', :controller => :exchanges
     / %li= link_to 'Your listings - view, add, edit or delete', :controller => :listings, :action=> :index
     / %li= link_to 'Browse listings', :controller => :listings, :action => :browse
-    - if current_user.role.name == "admin"
+
+
+    - if current_user && current_user.role.name == "admin"
       %li= link_to 'User Info', users_profile_path

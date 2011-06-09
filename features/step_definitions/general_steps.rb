@@ -19,13 +19,21 @@ When /^I fill in the form with the following "([^\"]*)"$/ do |data|
     field_value = x.split(':')
     params[field_value[0].strip] = field_value[1].strip
   end
+  debugger
 
-  within "form" do
+  user_form = find("#user_form")
+
+  #with_scope(user_form) do
     params.each do |key, value|
-      fill_in key, :with => value
+      When %{I fill in "#{key}" with "#{value}" within "#{user_form}"}
     end
-  end
+  #end
 end
+
+Then /^I fill in "([^"]*)" with "([^"]*)" within "([^"]*)"$/ do |arg1, arg2, arg3|
+  pending # express the regexp above with the code you wish you had
+end
+
 
 When /^I wait for (\d+) seconds?$/ do |secs|
   sleep secs.to_i
@@ -61,6 +69,11 @@ Then /^I should see the "([^\"]*)" field in the form$/ do |field_name|
   with_scope("form") do
     find_field(field_name).should_not be_nil
   end
+end
+
+Then /^I should see the id "([^\"]*)" field in the form$/ do |field_id|
+  string = "#"+ field_id
+  find(string).should_not be_nil
 end
 
 # from TVLM

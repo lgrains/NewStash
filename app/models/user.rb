@@ -5,7 +5,7 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
 
   # Setup accessible (or protected) attributes for your model
-  attr_accessible :zip, :email, :password, :password_confirmation, :remember_me
+  attr_accessible :zip, :email, :password, :password_confirmation, :remember_me, :full_name
 
   #validations
   validates_presence_of :role
@@ -29,6 +29,6 @@ class User < ActiveRecord::Base
 
   # before_validation
   def set_role
-    self.role ||= Role.find_by_name("cousin")
+    self.role ||= Role.find_by_name("consumer")
   end
 end

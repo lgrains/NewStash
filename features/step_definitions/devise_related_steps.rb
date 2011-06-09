@@ -20,11 +20,11 @@ end
 When /^I submit the sign up form with valid information$/ do
   within "form" do
     fill_in "Full name", :with => "First Last"
-    fill_in "Zip", :with => "02110"
-    fill_in "Email", :with => "new_user@bcm.tv"
+    fill_in "Zip", :with => "01821"
+    fill_in "Email", :with => "new_user@stash.com"
     fill_in "Password", :with => "password"
     fill_in "Password confirmation", :with => "password"
-    click_button "submit"
+    click_button "Sign Me Up!"
   end
 end
 
@@ -80,8 +80,8 @@ Then /^I should see "([^\"]*)" in the ajax form$/ do |text|
 end
 
 Then /^I should see edit profile fields$/ do
-  ["user[full_name]", "user[email]", "user[street_address]", "user[city]", "user[state]", "user[zip]", "user[phone]"].each do |x|
-    Then %{I should see the "#{x}" field in the form}
+  %w{user_full_name user_email user_street_address user_city user_state user_zip user_phone}.each do |x|
+    Then %{I should see the id "#{x}" field in the form}
   end
 end
 
@@ -91,6 +91,6 @@ def login(user)
   visit path_to("the Login page")
   fill_in("Email", :with => user.email)
   fill_in("Password", :with => 'password')
-  click_button("submit")
+  click_button("Log Me In!")
 end
 

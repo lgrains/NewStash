@@ -4,7 +4,7 @@ development:
   adapter: mysql2
   database: stash_dev
   username: root
-  password:
+  password: Scott4096
   host: localhost
 
 
@@ -15,7 +15,7 @@ test: &test
   adapter: mysql2
   database: stash_test
   username: root
-  password:
+  password: Scott4096
   host: localhost
 
 production:

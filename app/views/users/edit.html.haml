@@ -1,7 +1,7 @@
 #content
   #heading
     - @title = 'Edit Your Information'
-    - form_for :user, :url=> edit_user_path(@user), :html=> {:method => :put, :id=>"user_form"} do |form|
+    - form_for :user, :url=> "/users", :html=> {:method => :put, :id=>"user_form"} do |form|
       = form.hidden_field :id
       %div
         %label.desc{:for => "full_name"} Full Name

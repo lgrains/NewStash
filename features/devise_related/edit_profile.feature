@@ -13,8 +13,10 @@ Feature: Update user profile
 
   Scenario: Update profile but not password with valid information
     When I go to the User Edit Profile page for user "existing_user@stash.org"
-    Then show me the page
-     And I submit my profile with the following "Full Name: Andy Smith, Email: new_user@stash.org, Current Password: password"
+     When I fill in the following:
+        | user_full_name | Andy Smith        |
+        | user_email     | new_user@stash.org|
+      And I press "Save Changes"
     Then I should see a flash notice with "You updated your account successfully"
     When I go to the Logout page
      And I go to the Login page

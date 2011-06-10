@@ -19,9 +19,8 @@ When /^I fill in the form with the following "([^\"]*)"$/ do |data|
     field_value = x.split(':')
     params[field_value[0].strip] = field_value[1].strip
   end
-  debugger
-
   user_form = find("#user_form")
+  debugger
 
   #with_scope(user_form) do
     params.each do |key, value|
@@ -30,8 +29,11 @@ When /^I fill in the form with the following "([^\"]*)"$/ do |data|
   #end
 end
 
-Then /^I fill in "([^"]*)" with "([^"]*)" within "([^"]*)"$/ do |arg1, arg2, arg3|
-  pending # express the regexp above with the code you wish you had
+Then /^I fill in "([^"]*)" with "([^"]*)" within "([^"]*)"$/ do |field_name, value, form|
+  debugger
+  within(form) do
+    fill_in field_name, :with=> value
+  end
 end
 
 

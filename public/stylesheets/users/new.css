@@ -1,0 +1,30 @@
+/* line 6, ../../../app/stylesheets/users/new.sass */
+#content #heading h1 {
+  font: 1.2em Arial, Helvetica, sans-serif;
+}
+/* line 9, ../../../app/stylesheets/users/new.sass */
+#content #heading input.txt {
+  color: #00008b;
+  background-color: #e3f2f7;
+  border: 1px inset #00008b;
+  width: 200px;
+}
+/* line 15, ../../../app/stylesheets/users/new.sass */
+#content #heading input.btn {
+  color: #00008b;
+  background-color: #add8e6;
+  border: 1px outset #00008b;
+}
+/* line 20, ../../../app/stylesheets/users/new.sass */
+#content #heading form div {
+  clear: left;
+  margin: 0;
+  padding: 0;
+  padding-top: 0.6em;
+}
+/* line 26, ../../../app/stylesheets/users/new.sass */
+#content #heading form div label {
+  float: left;
+  width: 40%;
+  font: bold 0.9em Arial, Helvetica, sans-serif;
+}
